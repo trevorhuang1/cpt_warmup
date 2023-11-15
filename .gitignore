@@ -4,3 +4,5 @@ _posts/*_IPYNB_2_.md
 nohup.out
 Gemfile.lock
 convert_notebooks.cpython-310.pyc
+convert_notebooks.cpython-39.pyc
+__pycache__
