@@ -11,6 +11,7 @@ body {
     //filter: blur(8px);
   }
   .snow, .snow:before, .snow:after {
+    z-index: -3;
     position: absolute;
     top: -650px;
     left: 0;
@@ -37,6 +38,7 @@ body {
     filter: blur(2px);
     animation-duration: 6s;
     animation-direction: reverse;
+    z-index: -4;
   }
   
   .snow:before {
@@ -45,6 +47,7 @@ body {
     filter: blur(1px);
     animation-duration: 9s;
     animation-direction: reverse;
+    z-index: -4;
   }
   
   @keyframes snow {
