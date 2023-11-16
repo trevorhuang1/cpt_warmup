@@ -2,8 +2,8 @@ title: Binary Logic
 description: "August 2023 to June 2024"
 owner_name: Trevor Huang
 github_username: trevorhuang1
-github_repo: "teacher2.0"
-baseurl: "/teacher2.0"
+github_repo: "cpt_warmup"
+baseurl: "/cpt_warmup"
 remote_theme: jekyll/minima
 minima:
   social_links:
