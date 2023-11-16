@@ -6,11 +6,24 @@ description: Counts sheep
 type: hacks
 courses: { compsci: {week: 1} }
 ---
+<style>
+    #sheepGif {
+        position: absolute;
+        padding-left: 10px;
+        left: 0;
+        padding-top: 40px;
+    }
+    #sheep{
+        opacity: 1;
+    }
+</style>
 
 <h1>Binary Counter</h1>
 
-<img src="https://media.discordapp.net/attachments/1174600696776110080/1174600772340699216/encodedSheep.png?ex=65682f37&is=6555ba37&hm=797bf89aac0eeb10eae3245e7117b93f8adc526026edb734c35d3922dfd20de4&=&width=883&height=662" id="sheep">
-
+<img src="https://media.discordapp.net/attachments/770342230925246505/1174716992951947316/godSheep.png?ex=65689b74&is=65562674&hm=f3219060d1c61a42c93316bee9865c3fe109fb1b0340ed08c801e21b0d232f37&=&width=375&height=378" id="sheep">
+<div id="sheepContainer">
+    <img src = "https://media.discordapp.net/attachments/770342230925246505/1174717359647367168/sheep.gif?ex=65689bcb&is=655626cb&hm=578b09c94ccca31eddeffa7660f277a1ef462768d291886358930ba87a4866d0&=&width=300&height=300" id="sheepGif">
+</div>
 <div id="binary-display" class="basicChex">Binary Value: 0</div>
 <div id="binary-display2" class="basicChex">2nd Binary Value: 0</div>
 <div id="binary-display3" class="basicChex">3rd Binary Value: 0</div>
@@ -41,6 +54,15 @@ courses: { compsci: {week: 1} }
         updateBinaryDisplay();
     }
     let sheep = document.getElementById("sheep");
+    function toggleSheepDisplay() {
+        if (sheep.style.opacity === '0'){
+            sheep.style.opacity = '1';
+        }
+        else {
+            sheep.style.opacity = '0';
+        }
+    }
+    setInterval(toggleSheepDisplay,2000);
     function updateBinaryDisplay() {
         document.getElementById('binary-display').innerText = `Binary Value: ${(binaryValue & 0xFF).toString(2).padStart(8, '0')}`;
         document.getElementById('binary-display2').innerText = `2nd Binary Value: ${(binaryValue2 & 0xFF).toString(2).padStart(8, '0')}`;
