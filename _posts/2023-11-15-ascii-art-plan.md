@@ -2,7 +2,7 @@
 toc: true
 comments: false
 layout: base
-title: Aditya's Plan - Ascii Art 
+title: Aditya's Plans - Ascii Art 
 description: Ascii Art Binary Program Code and Updates
 type: plans 
 courses: { compsci: {week: 1} }
@@ -101,12 +101,12 @@ courses: { compsci: {week: 1} }
 
 Key Points:
 
-1. Binary representation of bits in the image
-2. * and _ for every bit creating the ascii art
-3. User can apply specific image into program
+* Binary representation of bits in the image
+* *Astrix* and _ for every bit creating the ascii art
+* User can apply specific image into program
 
 Possible Improvements:
 
-1. Work on sizing of the image to fit perfectly
-2. Implement black background to make ascii image look better
-3. Incorporating more elements into feature
+* Work on sizing of the image to fit perfectly
+* Implement black background to make ascii image look better
+* Incorporating more elements into feature
