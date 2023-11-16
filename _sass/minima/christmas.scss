@@ -10,7 +10,9 @@ body {
     color: white;
   }
 th {
-    color: black;
+    color: white;
+    background-color: rgb(123, 35, 53)!important;
+    border-color: rgb(123, 35, 53)!important;
 }
 ul {
   color: white;
@@ -18,7 +20,8 @@ ul {
 tbody,td,tr,table {
     font-family: 'Lobster', cursive;
     color: white;
-    background-color: transparent!important;
+    background-color: rgb(182, 49, 80);
+    border-color: rgb(123, 35, 53)!important;
 }
 a {
     font-family: 'Lobster', cursive!important;
