@@ -2,7 +2,7 @@
 title: Password Combiner
 comments: true
 description: My part of the project. It combines two passwords into one with logic gates
-type: post
+type: hacks
 courses: { compsci: {week: 1} }
 ---
 
