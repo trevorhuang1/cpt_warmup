@@ -1,0 +1,62 @@
+header, footer {
+    font-family: 'Lobster', cursive;
+    background-color: #61c0a8;
+}
+
+body {
+    font-family: 'Lobster', cursive; /* Replace 'YourHolidayFont' with the actual font name */
+    background-color: #ffffff; /* Set a background color for better visibility */
+    background-image: url('https://images3.alphacoders.com/196/196797.jpg');
+  }
+th {
+    color: black;
+}
+tbody,td,tr,table {
+    font-family: 'Lobster', cursive;
+    color: white;
+    background-color: transparent!important;
+}
+a {
+    font-family: 'Lobster', cursive!important;
+    color: white!important;
+}
+h2,p {
+    font-family: 'Lobster', cursive;
+    color: white;
+}
+  h1 {
+    font-size: 36px;
+    color: #cc0000; /* Use a deep red color for the text */
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #ffffff; /* Add a subtle white shadow */
+  }
+  
+  /* Additional styles for a Christmas-themed feel */
+  h1::before {
+    content: '\2605'; /* Unicode character for a star */
+    font-size: 42px;
+    margin-right: 10px;
+  }
+  
+  h1::after {
+    content: '\2605';
+    font-size: 42px;
+    margin-left: 10px;
+  }
+  
+  /* Animation for a twinkling effect */
+  @keyframes twinkling {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.8; }
+  }
+  
+  h1::before, h1::after {
+    display: inline-block;
+    animation: twinkling 1.5s infinite; /* Apply the twinkling animation */
+    color: #ffd700; /* Set a gold color for the stars */
+  }
+  
