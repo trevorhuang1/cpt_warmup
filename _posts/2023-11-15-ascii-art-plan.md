@@ -4,11 +4,11 @@ comments: false
 layout: base
 title: Ascii Art Code
 description: Ascii Art Binary Program Code and Updates
-type: plans 
+type: tangibles 
 courses: { compsci: {week: 1} }
 ---
 
-# Code for my Feature
+# Initial Code for my Feature
 
 ```javascript
 
