@@ -35,17 +35,17 @@ courses: { compsci: {week: 1} }
 
     //https://stackoverflow.com/questions/14430633/how-to-convert-text-to-binary-code-in-javascript
     function textToBinary(text) {
-        var binary = "";
+        var binary = ""; 
         // for every character in the text
         for (var i = 0; i < text.length; i++) {
-            var charBinary = ""; 
+            var charBinary = "";
             // concat the binary version into the var "binary"
             //charCodeAt(0) retrieves the unicode character code of the character at i
             //.toString(2) converts unicode to binary
-            charBinary += text[i].charCodeAt(0).toString(2) + " ";
+            charBinary += text[i].charCodeAt(0).toString(2);
 
             // pad with leading zeros
-            while (charBinary.length < 9) {
+            while (charBinary.length < 8) {
                 charBinary = "0" + charBinary;
             }
 
@@ -66,7 +66,7 @@ courses: { compsci: {week: 1} }
         }
         for (var i = 0; i < longer.length; i++) {
             //if both 1 then return 1
-            if(binary1[i] == 1 && binary2[i] == 1) {
+            if(binary1[i] == "1" && binary2[i] == "1") {
                 result += "1";
             }
             //otherwise return 0
