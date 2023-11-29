@@ -40,7 +40,7 @@ courses: { compsci: {week: 1} }
         console.log(binary1);
         console.log(binary2);
         // displays
-        document.getElementById("combined").innerHTML = "Combined password: " + combined;
+        document.getElementById("combined").innerHTML = "Combined password: " + binaryToText(combined);
     }
 
     //https://stackoverflow.com/questions/14430633/how-to-convert-text-to-binary-code-in-javascript
@@ -65,8 +65,22 @@ courses: { compsci: {week: 1} }
         return binary.trim();
     }
 
-    function binaryToText(text) {
+    function binaryToText(binary) {
+        var text = "";
+        // Split the binary string into 8-bit chunks
+        var binaryChunks = binary.match(/.{1,8}/g);
 
+        // Convert each 8-bit chunk to decimal and then to ASCII
+        for (var i = 0; i < binaryChunks.length; i++) {
+            var decimalValue = parseInt(binaryChunks[i], 2);
+
+            // Check if the ASCII character is printable
+            if (decimalValue >= 32 && decimalValue <= 126) {
+                text += String.fromCharCode(decimalValue);
+            }
+        }
+
+        return text;
     }
 
     function andGate(binary1, binary2) {
