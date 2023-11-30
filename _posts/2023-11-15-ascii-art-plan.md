@@ -12,6 +12,14 @@ courses: { compsci: {week: 1} }
 
 ```javascript
 
+//Style for black canvas
+<style>
+   #asciiOutput {
+    background-color: black;
+    color: white;
+   }
+</style>
+
 <!-- Input element for selecting an image file -->
 <input type="file" id="imageInput" accept="image/*">
 
@@ -19,6 +27,7 @@ courses: { compsci: {week: 1} }
 <pre id="asciiOutput"></pre>
 
 <script>
+
     // Event listener for changes in the selected image file
     document.getElementById('imageInput').addEventListener('change', handleImage);
 
