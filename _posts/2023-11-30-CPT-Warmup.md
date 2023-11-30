@@ -175,3 +175,13 @@ Commits:
 <a href="https://github.com/trevorhuang1/cpt_warmup/commit/2d1eac0c2044606f30e2e8d65da9342d9a673608">python binary colorgen</a>
 
 <a href="https://github.com/trevorhuang1/cpt_warmup/commit/a9aa10d3a696960b662604dc98f4ea624c7f5fe5">sample color input</a>
+
+# Counting Sheep
+    - Key Points:
+        * Changing color based on what the user inputs in binary
+        * Creating interesting interaction by counting sheep which is also what changes color
+    - Improvements:
+        * Sheep has white background
+        * The sudden appearance of the sheep is jarring
+    <img src= "https://media.discordapp.net/attachments/770342230925246505/1180040866266624080/image.png?ex=657bf9b2&is=656984b2&hm=6ede918bd422f6fa4284e29b6ce15bad5bff7918f41d1f924c9a8b2bd49ce848&=&format=webp&quality=lossless&width=1253&height=662" >
+    
