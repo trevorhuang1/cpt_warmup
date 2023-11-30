@@ -184,4 +184,6 @@ Commits:
         * Sheep has white background
         * The sudden appearance of the sheep is jarring
     <img src= "https://media.discordapp.net/attachments/770342230925246505/1180040866266624080/image.png?ex=657bf9b2&is=656984b2&hm=6ede918bd422f6fa4284e29b6ce15bad5bff7918f41d1f924c9a8b2bd49ce848&=&format=webp&quality=lossless&width=1253&height=662" >
-    
+
+    - Sheep Changing Form of Entering Binary -> Entering it rather than pressing on counter
+    - The Sheep Counter -> Initial draft of the sheep counter
