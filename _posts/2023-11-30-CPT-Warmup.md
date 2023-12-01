@@ -199,3 +199,5 @@ Key Points:
 Possible Improvements:
 - Add much more gates instead of just AND & OR gates
 - Suggest a stronger password if the combined one is weak
+    - Sheep Changing Form of Entering Binary -> Entering it rather than pressing on counter
+    - The Sheep Counter -> Initial draft of the sheep counter
