@@ -177,20 +177,27 @@ Commits:
 <a href="https://github.com/trevorhuang1/cpt_warmup/commit/a9aa10d3a696960b662604dc98f4ea624c7f5fe5">sample color input</a>
 
 # Counting Sheep
-    - Key Points:
-        * Changing color based on what the user inputs in binary
-        * Creating interesting interaction by counting sheep which is also what changes color
-    - Improvements:
-        * Sheep has white background
-        * The sudden appearance of the sheep is jarring
-    <img src= "https://media.discordapp.net/attachments/770342230925246505/1180040866266624080/image.png?ex=657bf9b2&is=656984b2&hm=6ede918bd422f6fa4284e29b6ce15bad5bff7918f41d1f924c9a8b2bd49ce848&=&format=webp&quality=lossless&width=1253&height=662" >
+- Key Points:
+    * Changing color based on what the user inputs in binary
+    * Creating interesting interaction by counting sheep which is also what changes color
+- Improvements:
+    * Sheep has white background
+    * The sudden appearance of the sheep is jarring
+    * Sheep Changing Form of Entering Binary -> Entering it rather than pressing on counter
+    * The Sheep Counter -> Initial draft of the sheep counter
+- <img src= "https://media.discordapp.net/attachments/770342230925246505/1180040866266624080/image.png?ex=657bf9b2&is=656984b2&hm=6ede918bd422f6fa4284e29b6ce15bad5bff7918f41d1f924c9a8b2bd49ce848&=&format=webp&quality=lossless&width=1253&height=662">
 
 # Password Combiner:
-<a href="https://trevorhuang1.github.io/cpt_warmup/2023/11/15/Logic_gates.html">Link to project</a>
+<img src="https://media.discordapp.net/attachments/1138198617463730330/1180049472210870322/combiner.png?ex=657c01b6&is=65698cb6&hm=6cad0ca8476ef7b55df49dbaf1449496f9482091759873e0acbe98a7ed97fecd&=&format=webp&quality=lossless">
+
+<a href="https://trevorhuang1.github.io/cpt_warmup/2023/11/15/Logic_gates.html">Link to project (click)</a>
+
 Key Commits:
-<a href="https://github.com/trevorhuang1/cpt_warmup/commit/f96393709dc9e6e1c28a78b33005e64f71fac3ce">Text to binary (favorite)</a>
-<a href="https://github.com/trevorhuang1/cpt_warmup/commit/d87277d8532028dce3c7f84d44060ca2d960ed6b">Option to switch logic gate</a>
-<a href="https://github.com/trevorhuang1/cpt_warmup/commit/9cec1f72dad02c56725916f9b2b95586bec4a8cc">Binary back to text</a>
+- <a href="https://github.com/trevorhuang1/cpt_warmup/commit/f96393709dc9e6e1c28a78b33005e64f71fac3ce">Text to binary (favorite)</a>
+
+- <a href="https://github.com/trevorhuang1/cpt_warmup/commit/d87277d8532028dce3c7f84d44060ca2d960ed6b">Option to switch logic gate</a>
+
+- <a href="https://github.com/trevorhuang1/cpt_warmup/commit/9cec1f72dad02c56725916f9b2b95586bec4a8cc">Binary back to text</a>
 
 Key Points:
 - Use of binary when the two passwords from the user go from ascii to unicode then to binary
@@ -199,5 +206,5 @@ Key Points:
 Possible Improvements:
 - Add much more gates instead of just AND & OR gates
 - Suggest a stronger password if the combined one is weak
-    - Sheep Changing Form of Entering Binary -> Entering it rather than pressing on counter
-    - The Sheep Counter -> Initial draft of the sheep counter
+
+
