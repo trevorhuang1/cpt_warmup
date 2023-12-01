@@ -2,7 +2,7 @@
 toc: true
 comments: false
 layout: base
-title: Ascii Art Code
+title: Ascii Art Blog
 description: Ascii Art Binary Program Code and Updates
 type: tangibles 
 courses: { compsci: {week: 1} }
@@ -12,6 +12,14 @@ courses: { compsci: {week: 1} }
 
 ```javascript
 
+//Style for black canvas
+<style>
+   #asciiOutput {
+    background-color: black;
+    color: white;
+   }
+</style>
+
 <!-- Input element for selecting an image file -->
 <input type="file" id="imageInput" accept="image/*">
 
@@ -19,6 +27,7 @@ courses: { compsci: {week: 1} }
 <pre id="asciiOutput"></pre>
 
 <script>
+
     // Event listener for changes in the selected image file
     document.getElementById('imageInput').addEventListener('change', handleImage);
 
@@ -123,3 +132,9 @@ Possible Improvements:
 * Work on sizing of the image to fit perfectly
 * Implement black background to make ascii image look better
 * Incorporating more elements into feature
+
+Commits:
+
+[Work on Program](https://github.com/trevorhuang1/cpt_warmup/commit/8d2ce0585463927361336e4c41df17ed84b469e7)
+
+[Update on Canvas](https://github.com/trevorhuang1/cpt_warmup/commit/4d3509a5712ab6adcf702b442bc1e325e379a30a)
