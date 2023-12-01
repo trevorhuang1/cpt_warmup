@@ -9,8 +9,9 @@ type: tangibles
 ---
 
 # Stego
-<a href="https://trevorhuang1.github.io/cpt_warmup//2023/11/14/stego.html">Stego Project Link</a>
 
+
+<a href="https://trevorhuang1.github.io/cpt_warmup//2023/11/14/stego.html">Link to project (click)</a>
 <img src="https://media.discordapp.net/attachments/887546581459554335/1180027619459223602/image.png?ex=657bed5c&is=6569785c&hm=1221fe6bd4904ff61e557c02aaac936ab3cc8857abeedc3ed2fe6157b2a63aa9&=&format=webp&quality=lossless&width=561&height=621">
 
 <img src="https://media.discordapp.net/attachments/887546581459554335/1180027885948522596/image.png?ex=657bed9b&is=6569789b&hm=cfeaf1e17202583ec3fe940a957c074f22e7b6946d880c86f20a061ab38936e0&=&format=webp&quality=lossless&width=559&height=621">
@@ -31,6 +32,7 @@ Improvements:
 
 # Ascii Art
 
+<a href="https://trevorhuang1.github.io/cpt_warmup//2023/11/15/ascii-art.html">Link to project (click)</a>
 ```javascript
 
 //Style for black canvas
@@ -162,6 +164,7 @@ Commits:
 
 # Binary Project - Random Color Generator
 
+<a href="https://trevorhuang1.github.io/cpt_warmup//2023/11/14/binary-color-generator_IPYNB_2_.html">Link to project (click)</a>
 - Validate RGB Values
 - Convert RGB Decimal to Binary
 - Have sample RGB value input (decimal)
@@ -179,6 +182,8 @@ Commits:
 <a href="https://github.com/trevorhuang1/cpt_warmup/commit/a9aa10d3a696960b662604dc98f4ea624c7f5fe5">sample color input</a>
 
 # Counting Sheep
+
+<a href="https://trevorhuang1.github.io/cpt_warmup//2023/11/15/stegoDecoder.html">Link to project (click)</a>
 - Key Points:
     * Changing color based on what the user inputs in binary
     * Creating interesting interaction by counting sheep which is also what changes color
