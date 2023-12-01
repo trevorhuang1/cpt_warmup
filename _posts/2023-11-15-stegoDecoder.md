@@ -2,7 +2,6 @@
 layouts: base
 title: Sheep Counter
 comments: true
-description: Counts sheep
 type: hacks
 courses: { compsci: {week: 1} }
 ---
@@ -24,7 +23,7 @@ courses: { compsci: {week: 1} }
 <body>
 
 
-<img src="https://media.discordapp.net/attachments/770342230925246505/1174716992951947316/godSheep.png?ex=65689b74&is=65562674&hm=f3219060d1c61a42c93316bee9865c3fe109fb1b0340ed08c801e21b0d232f37&=&width=375&height=378" id="sheep">
+<img src="https://media.discordapp.net/attachments/770342230925246505/1174716992951947316/godSheep.png?ex=65689b74&is=65562674&hm=f3219060d1c61a42c93316bee9865c3fe109fb1b0340ed08c801e21b0d232f37&=&width=375&height=378" id="sheep" height="126px" width="125">
 <!-- <div id="sheepContainer">
     <img src="https://media.discordapp.net/attachments/770342230925246505/1174717359647367168/sheep.gif?ex=65689bcb&is=655626cb&hm=578b09c94ccca31eddeffa7660f277a1ef462768d291886358930ba87a4866d0&=&width=300&height=300" id="sheepGif">
 </div> -->
