@@ -189,6 +189,7 @@ Commits:
     * Creating interesting interaction by counting sheep which is also what changes color
 - Improvements:
     * Sheep has white background
+    * add in reindeer 
     * The sudden appearance of the sheep is jarring
     * Sheep Changing Form of Entering Binary -> Entering it rather than pressing on counter
     * The Sheep Counter -> Initial draft of the sheep counter
