@@ -9,130 +9,9 @@ type: tangibles
 ---
 
 # Stego
-<a href="https://trevorhuang1.github.io/cpt_warmup//2023/11/14/stego.html">Stego Project Link</a>
 
-```javascript
-<script>
-    // Function to encode a message into an image
-    function encodeMessage() {
-        // Get HTML elements
-        const imageInput = document.getElementById('imageInput');
-        const messageInput = document.getElementById('messageInput');
-        const canvas = document.getElementById('canvas');
-        const ctx = canvas.getContext('2d');
 
-        // Create a new Image object and load the selected image
-        const image = new Image();
-        image.src = URL.createObjectURL(imageInput.files[0]);
-
-        // Callback executed when the image is loaded
-        image.onload = function () {
-            // Set canvas dimensions to match the image
-            canvas.width = image.width;
-            canvas.height = image.height;
-
-            // Draw the image onto the canvas
-            ctx.drawImage(image, 0, 0);
-
-            // Get the message from the input and convert it to binary
-            const message = messageInput.value;
-            const binaryMessage = stringToBinary(message);
-
-            let binaryIndex = 0;
-
-            // Loop through each pixel of the image
-            for (let y = 0; y < image.height; y++) {
-                for (let x = 0; x < image.width; x++) {
-                    // Get the RGBA data of the current pixel
-                    const pixel = ctx.getImageData(x, y, 1, 1);
-                    const rgba = pixel.data;
-
-                    // Loop through RGB components (ignoring alpha)
-                    for (let i = 0; i < 3; i++) {
-                        if (binaryIndex < binaryMessage.length) {
-                            // Set the least significant bit of each RGB component to the message bit
-                            rgba[i] = (rgba[i] & 0xFE) | parseInt(binaryMessage[binaryIndex], 2);
-                            binaryIndex++;
-                        }
-                    }
-
-                    // Update the pixel data on the canvas
-                    ctx.putImageData(new ImageData(new Uint8ClampedArray(rgba), 1, 1), x, y);
-                }
-            }
-            // Store the length of the binary message for decoding
-            window.binaryMessageLength = binaryMessage.length;
-        };
-    }
-
-    // Function to decode a message from an encoded image
-    function decodeMessage() {
-        // Get HTML elements
-        const encodedImageInput = document.getElementById('encodedImageInput');
-        const decodedMessageTextarea = document.getElementById('decodedMessage');
-        const canvas = document.getElementById('canvas');
-        const ctx = canvas.getContext('2d');
-
-        // Create a new Image object and load the encoded image
-        const encodedImage = new Image();
-        encodedImage.src = URL.createObjectURL(encodedImageInput.files[0]);
-
-        // Callback executed when the encoded image is loaded
-        encodedImage.onload = function () {
-            // Set canvas dimensions to match the encoded image
-            canvas.width = encodedImage.width;
-            canvas.height = encodedImage.height;
-
-            // Draw the encoded image onto the canvas
-            ctx.drawImage(encodedImage, 0, 0);
-
-            let binaryMessage = '';
-            // Loop through each pixel of the encoded image
-            for (let y = 0; y < encodedImage.height; y++) {
-                for (let x = 0; x < encodedImage.width; x++) {
-                    // Get the RGBA data of the current pixel
-                    const pixel = ctx.getImageData(x, y, 1, 1).data;
-                    if (binaryMessage.length < binaryMessageLength) {
-                        // Loop through RGB components (ignoring alpha)
-                        for (let i = 0; i < 3; i++) {
-                            // Extract the least significant bit from each RGB component
-                            binaryMessage += (pixel[i] & 1).toString();
-                        }
-                    }
-                }
-            }
-
-            // Convert the binary message to a human-readable string
-            const message = binaryToString(binaryMessage);
-            // Display the decoded message in the textarea
-            decodedMessageTextarea.value = message;
-        };
-    }
-
-    // Function to convert a string to binary
-    function stringToBinary(str) {
-        const binary = [];
-        for (let i = 0; i < str.length; i++) {
-            // Convert each character to its binary representation
-            const charCode = str.charCodeAt(i).toString(2);
-            // Ensure each binary representation is 8 bits long
-            binary.push('0'.repeat(8 - charCode.length) + charCode);
-        }
-        return binary.join('');
-    }
-
-    // Function to convert binary to a string
-    function binaryToString(binary) {
-        let str = '';
-        for (let i = 0; i < binary.length; i += 8) {
-            // Convert each 8 bits to a character and concatenate
-            const byte = binary.substr(i, 8);
-            str += String.fromCharCode(parseInt(byte, 2));
-        }
-        return str;
-    }
-</script>
-```
+<a href="https://trevorhuang1.github.io/cpt_warmup//2023/11/14/stego.html">Link to project (click)</a>
 
 Key Commits:
 - [stego encoder + decoder implementation](https://github.com/trevorhuang1/cpt_warmup/commit/19b5222fb5bb63762c1bba148aca17f166b11b13)
@@ -150,6 +29,7 @@ Improvements:
 
 # Ascii Art
 
+<a href="https://trevorhuang1.github.io/cpt_warmup//2023/11/15/ascii-art.html">Link to project (click)</a>
 ```javascript
 
 //Style for black canvas
@@ -281,6 +161,7 @@ Commits:
 
 # Binary Project - Random Color Generator
 
+<a href="https://trevorhuang1.github.io/cpt_warmup//2023/11/14/binary-color-generator_IPYNB_2_.html">Link to project (click)</a>
 - Validate RGB Values
 - Convert RGB Decimal to Binary
 - Have sample RGB value input (decimal)
@@ -298,6 +179,8 @@ Commits:
 <a href="https://github.com/trevorhuang1/cpt_warmup/commit/a9aa10d3a696960b662604dc98f4ea624c7f5fe5">sample color input</a>
 
 # Counting Sheep
+
+<a href="https://trevorhuang1.github.io/cpt_warmup//2023/11/15/stegoDecoder.html">Link to project (click)</a>
 - Key Points:
     * Changing color based on what the user inputs in binary
     * Creating interesting interaction by counting sheep which is also what changes color

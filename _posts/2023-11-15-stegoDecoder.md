@@ -6,7 +6,7 @@ description: Counts sheep
 type: hacks
 courses: { compsci: {week: 1} }
 ---
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -23,7 +23,6 @@ courses: { compsci: {week: 1} }
 </head>
 <body>
 
-<h1>Binary Counter</h1>
 
 <img src="https://media.discordapp.net/attachments/770342230925246505/1174716992951947316/godSheep.png?ex=65689b74&is=65562674&hm=f3219060d1c61a42c93316bee9865c3fe109fb1b0340ed08c801e21b0d232f37&=&width=375&height=378" id="sheep">
 <!-- <div id="sheepContainer">
