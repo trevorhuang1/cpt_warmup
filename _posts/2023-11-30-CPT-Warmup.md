@@ -3,7 +3,7 @@ toc: false
 comments: true
 layout: base
 title: CPT Warmup
-description: CPT Warmup things
+description: CPT Warmup Tangibles
 courses: {compsci: {week: 1}}
 type: tangibles
 ---
@@ -184,4 +184,18 @@ Commits:
         * Sheep has white background
         * The sudden appearance of the sheep is jarring
     <img src= "https://media.discordapp.net/attachments/770342230925246505/1180040866266624080/image.png?ex=657bf9b2&is=656984b2&hm=6ede918bd422f6fa4284e29b6ce15bad5bff7918f41d1f924c9a8b2bd49ce848&=&format=webp&quality=lossless&width=1253&height=662" >
-    
+
+# Password Combiner:
+<a href="https://trevorhuang1.github.io/cpt_warmup/2023/11/15/Logic_gates.html">Link to project</a>
+Key Commits:
+<a href="https://github.com/trevorhuang1/cpt_warmup/commit/f96393709dc9e6e1c28a78b33005e64f71fac3ce">Text to binary (favorite)</a>
+<a href="https://github.com/trevorhuang1/cpt_warmup/commit/d87277d8532028dce3c7f84d44060ca2d960ed6b">Option to switch logic gate</a>
+<a href="https://github.com/trevorhuang1/cpt_warmup/commit/9cec1f72dad02c56725916f9b2b95586bec4a8cc">Binary back to text</a>
+
+Key Points:
+- Use of binary when the two passwords from the user go from ascii to unicode then to binary
+- Logic gates combine the "0"s and "1"s and return one password in binary
+
+Possible Improvements:
+- Add much more gates instead of just AND & OR gates
+- Suggest a stronger password if the combined one is weak
