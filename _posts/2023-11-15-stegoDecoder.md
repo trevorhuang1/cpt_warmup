@@ -1,7 +1,7 @@
 ---
 layouts: base
 title: Sheep Counter
-comments: true
+comments: false
 type: hacks
 courses: { compsci: {week: 1} }
 ---
