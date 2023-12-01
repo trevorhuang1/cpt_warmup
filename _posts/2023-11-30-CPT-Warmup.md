@@ -2,13 +2,17 @@
 toc: false
 comments: true
 layout: base
-title: Binary Color Generator
-description: Random color generator chooses random numbers between 0 and 255 for each of red, green, and blue. The decimal is converted into 8-bit binary and displays the color combination in (R, G, B) and their binary representaations.
+title: CPT Warmup
+description: CPT Warmup things
 courses: {compsci: {week: 1}}
 type: tangibles
 ---
 
 # Stego
+<img src="https://media.discordapp.net/attachments/887546581459554335/1180027619459223602/image.png?ex=657bed5c&is=6569785c&hm=1221fe6bd4904ff61e557c02aaac936ab3cc8857abeedc3ed2fe6157b2a63aa9&=&format=webp&quality=lossless&width=561&height=621">
+
+<img src="https://media.discordapp.net/attachments/887546581459554335/1180027885948522596/image.png?ex=657bed9b&is=6569789b&hm=cfeaf1e17202583ec3fe940a957c074f22e7b6946d880c86f20a061ab38936e0&=&format=webp&quality=lossless&width=559&height=621">
+
 Key Commits:
 - [stego encoder + decoder implementation](https://github.com/trevorhuang1/cpt_warmup/commit/19b5222fb5bb63762c1bba148aca17f166b11b13)
 
@@ -21,9 +25,8 @@ Key Points:
 Improvements: 
 - could make image download process more streamlined, maybe click of a button auto downloads image
 - find ways to make encoding more efficient
-<img src="https://media.discordapp.net/attachments/887546581459554335/1180027619459223602/image.png?ex=657bed5c&is=6569785c&hm=1221fe6bd4904ff61e557c02aaac936ab3cc8857abeedc3ed2fe6157b2a63aa9&=&format=webp&quality=lossless&width=561&height=621">
 
-<img src="https://media.discordapp.net/attachments/887546581459554335/1180027885948522596/image.png?ex=657bed9b&is=6569789b&hm=cfeaf1e17202583ec3fe940a957c074f22e7b6946d880c86f20a061ab38936e0&=&format=webp&quality=lossless&width=559&height=621">
+
 # Ascii Art
 Key Points:
 
