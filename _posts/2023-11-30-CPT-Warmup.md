@@ -29,6 +29,7 @@ Improvements:
 # Ascii Art
 
 <a href="https://trevorhuang1.github.io/cpt_warmup//2023/11/15/ascii-art.html">Link to project (click)</a>
+
 <a href="https://trevorhuang1.github.io/cpt_warmup//2023/11/15/ascii-art-plan.html">Link to code (click)</a>
 
 Key Points:
