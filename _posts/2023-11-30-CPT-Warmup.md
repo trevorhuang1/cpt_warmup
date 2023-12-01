@@ -1,3 +1,13 @@
+---
+toc: false
+comments: true
+layout: base
+title: Binary Color Generator
+description: Random color generator chooses random numbers between 0 and 255 for each of red, green, and blue. The decimal is converted into 8-bit binary and displays the color combination in (R, G, B) and their binary representaations.
+courses: {compsci: {week: 1}}
+type: tangibles
+---
+
 # Stego
 Key Commits:
 - [stego encoder + decoder implementation](https://github.com/trevorhuang1/cpt_warmup/commit/19b5222fb5bb63762c1bba148aca17f166b11b13)
