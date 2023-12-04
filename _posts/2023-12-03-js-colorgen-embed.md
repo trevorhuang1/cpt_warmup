@@ -14,20 +14,20 @@ type: hacks
 </head>
 <body>
 
-    - Validate RGB Values
+- Validate RGB Values
 
-    - Convert RGB Decimal to Binary
+- Convert RGB Decimal to Binary
 
-    - Have sample RGB value input (decimal)
+- Have sample RGB value input (decimal)
 
-    - Display color in RGB format
+- Display color in RGB format
 
-    - Displaying converted RGB values in binary
+- Displaying converted RGB values in binary
 
 <img src = "https://media.discordapp.net/attachments/1174540464951676969/1174591418451369994/image.png?ex=65682681&is=6555b181&hm=10da97d668d2ce6c0e1dea11fd5e9fd743ab5dacc88778b282c5017d15aa1c79&=&width=1333&height=993">
 
 
-    - Instructions
+- Instructions
 
 
 Change the values (pictured below) in code, then use Console in "Toggle Developer Tools" to go through above process.
@@ -102,7 +102,7 @@ Change the values (pictured below) in code, then use Console in "Toggle Develope
     - Key Commits
 
 
-<a href="https://github.com/trevorhuang1/cpt_warmup/commit/9da25de7e4f114a33fdb5028e7b4d3d236659a6e">js color generator</a>
+<a href="https://github.com/trevorhuang1/cpt_warmup/commit/8bf1214933ef5cbe29572b1d4caa4a233b67532a">input-based js color generator</a>
 
 
 <a href="https://github.com/trevorhuang1/cpt_warmup/commit/2d1eac0c2044606f30e2e8d65da9342d9a673608">python binary colorgen</a>
