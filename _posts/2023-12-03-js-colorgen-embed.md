@@ -10,12 +10,6 @@ type: hacks
 
 # Color Generator
 
-<html>
-<head>
-    <title>Color Generator</title>
-</head>
-<body>
-
 - Input decimal values 0-255 in each box
 
 - Code validate RGB values
@@ -28,11 +22,6 @@ type: hacks
 
 <img src = "https://media.discordapp.net/attachments/1174540464951676969/1174591418451369994/image.png?ex=65682681&is=6555b181&hm=10da97d668d2ce6c0e1dea11fd5e9fd743ab5dacc88778b282c5017d15aa1c79&=&width=1333&height=993">
 
-
-- Instructions
-
-
-Change the values (pictured below) in code, then use Console in "Toggle Developer Tools" to go through above process.
 
 
 <img src="https://media.discordapp.net/attachments/796087225535168512/1181298244056260678/image.png?ex=65808cb8&is=656e17b8&hm=f385b456e57457b6ecccc9adc42052c06ecaa39d8e3cebaff363cd502b0ee56e&=&format=webp&quality=lossless&width=393&height=225">
@@ -101,16 +90,13 @@ Change the values (pictured below) in code, then use Console in "Toggle Develope
 </body>
 </html>
 
-    - Key Commits
+## Key Commits
 
+- <a href="https://github.com/trevorhuang1/cpt_warmup/commit/8bf1214933ef5cbe29572b1d4caa4a233b67532a">input-based js color generator</a>
 
-<a href="https://github.com/trevorhuang1/cpt_warmup/commit/8bf1214933ef5cbe29572b1d4caa4a233b67532a">input-based js color generator</a>
+- <a href="https://github.com/trevorhuang1/cpt_warmup/commit/2d1eac0c2044606f30e2e8d65da9342d9a673608">python binary colorgen</a>
 
-
-<a href="https://github.com/trevorhuang1/cpt_warmup/commit/2d1eac0c2044606f30e2e8d65da9342d9a673608">python binary colorgen</a>
-
-
-<a href="https://github.com/trevorhuang1/cpt_warmup/commit/a9aa10d3a696960b662604dc98f4ea624c7f5fe5">sample color input</a>
+- <a href="https://github.com/trevorhuang1/cpt_warmup/commit/a9aa10d3a696960b662604dc98f4ea624c7f5fe5">sample color input</a>
 
 </body>
 </html>
