@@ -62,6 +62,12 @@ Commits:
 
 <img src = "https://media.discordapp.net/attachments/1174540464951676969/1174591418451369994/image.png?ex=65682681&is=6555b181&hm=10da97d668d2ce6c0e1dea11fd5e9fd743ab5dacc88778b282c5017d15aa1c79&=&width=1333&height=993">
 
+- Instructions
+
+Change the values (pictured below) in code, then use Console in "Toggle Developer Tools" to go through above process.
+
+<img src="https://media.discordapp.net/attachments/796087225535168512/1181298244056260678/image.png?ex=65808cb8&is=656e17b8&hm=f385b456e57457b6ecccc9adc42052c06ecaa39d8e3cebaff363cd502b0ee56e&=&format=webp&quality=lossless&width=393&height=225">
+
 - Key Commits
 
 <a href="https://github.com/trevorhuang1/cpt_warmup/commit/9da25de7e4f114a33fdb5028e7b4d3d236659a6e">js color generator</a>
