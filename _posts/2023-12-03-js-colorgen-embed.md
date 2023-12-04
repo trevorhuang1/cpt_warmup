@@ -12,9 +12,9 @@ type: hacks
 
 - Input decimal values 0-255 in each box
 
-- Code validate RGB values
+- Code validates RGB values
 
-- Convert RGB decimal to binary
+- Converts RGB decimal to binary
 
 - Displays converted RGB values in binary
 
