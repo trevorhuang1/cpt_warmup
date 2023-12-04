@@ -1,3 +1,13 @@
+---
+toc: false
+comments: true
+layout: base
+title: Color Generator
+description: Color Generator
+courses: {compsci: {week: 1}}
+type: tangibles
+---
+
 <html>
 <head>
     <title>Color Generator</title>
