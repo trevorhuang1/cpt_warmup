@@ -2,11 +2,13 @@
 toc: false
 comments: true
 layout: base
-title: Color Translator
+title: Color Generator
 description: Color Generator
 courses: {compsci: {week: 1}}
 type: hacks
 ---
+
+# Color Generator
 
 <html>
 <head>
@@ -14,15 +16,15 @@ type: hacks
 </head>
 <body>
 
-- Validate RGB Values
+- Input decimal values 0-255 in each box
 
-- Convert RGB Decimal to Binary
+- Code validate RGB values
 
-- Have sample RGB value input (decimal)
+- Convert RGB decimal to binary
 
-- Display color in RGB format
+- Displays converted RGB values in binary
 
-- Displaying converted RGB values in binary
+- Displays final color
 
 <img src = "https://media.discordapp.net/attachments/1174540464951676969/1174591418451369994/image.png?ex=65682681&is=6555b181&hm=10da97d668d2ce6c0e1dea11fd5e9fd743ab5dacc88778b282c5017d15aa1c79&=&width=1333&height=993">
 
