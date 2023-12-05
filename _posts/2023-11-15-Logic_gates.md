@@ -5,6 +5,81 @@ description: Combines two passwords into one with logic gates
 type: hacks
 courses: { compsci: {week: 1} }
 ---
+
+<body>
+<!-- Collapsible button -->
+<button type="button" class="collapsible">How the code works:</button>
+
+<!-- Collapsible content with a textarea -->
+<div class="content collapsible-content">
+    <textarea placeholder="text">It takes in both passwords as ascii and then converts to unicode until finally going to binary. After combining the passwords, any unreadable ascii characters are removed based on the binary output of the logic gate and are filtered out before finally being displayed back as a single password. The shortest password is taken to avoid having to pad the end with zeros.</textarea>
+</div>
+
+<button type="button" class="collapsible">How to use the program:</button>
+
+<!-- Collapsible content with a textarea -->
+<div class="content collapsible-content">
+    <textarea placeholder="text">Using this code is really quite simple and easy! First, enter in both passwords and then select the button for the logic gate you want to use to combine the two. There are images to guide you just in case you forget.</textarea>
+</div>
+
+<button type="button" class="collapsible">How code uses binary logic:</button>
+
+<!-- Collapsible content with a textarea -->
+<div class="content collapsible-content">
+    <textarea placeholder="text">Code uses logic gates to combine the passwords at the binary level.</textarea>
+</div>
+
+<!-- JavaScript for collapsible functionality -->
+<script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+                content.style.display = "none";
+            } else {
+                content.style.display = "block";
+            }
+        });
+    }
+</script>
+</body>
+<style>
+    /* Style the button that is used to open and close the collapsible content */
+    .collapsible {
+        background-color: #8B0000;
+        color: white;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+    }
+    /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+    .active, .collapsible:hover {
+        background-color: #006400;
+        transition-delay: 0.01s;
+    }
+    /* Style the collapsible content. Note: hidden by default */
+    .content {
+        padding: 0 18px;
+        display: none;
+        overflow: hidden;
+        background-color: #f1f1f1;
+    }
+    /* Style the textarea inside the collapsible content */
+    .collapsible-content textarea {
+        width: 100%;
+        height: 100px;
+        box-sizing: border-box;
+        margin-top: 10px;
+    }
+</style>
 <!-- Setting up the form for data entry -->
 <form onsubmit="combinePasswords(event)">
     <label for="password1">Enter your first password</label><br>
@@ -39,8 +114,8 @@ courses: { compsci: {week: 1} }
         else if (gateType == "or") {
             var combined = orGate(binary1, binary2);
         }
-        console.log(binary1);
-        console.log(binary2);
+        console.log("First password: " + binary1);
+        console.log("Second password: " + binary2);
         // displays
         document.getElementById("combined").innerHTML = "Combined password: " + binaryToText(combined);
     }
