@@ -13,8 +13,10 @@ courses: { compsci: {week: 1} }
     <input type="text" id="password2" name="password2"><br>
     <input type="radio" id="and" name="gate" value="and">
     <label for="and">And Gate</label><br>
-    <input type="radio" id="or" name="gate" value="or">
+    <img src="https://media.discordapp.net/attachments/1138198617463730330/1181468296747429999/AND.webp?ex=65812b18&is=656eb618&hm=6d0583021058c70d1864ffdcdfb6ca25ba957fa269f64532f7b8b1d10ddc04f3&=&format=webp" alt="AND Gate" width="400" height="200"><br>
+    <input type="radio" id="or" name="gate" value="or"><br>
     <label for="or">Or Gate</label><br>
+    <img src="https://media.discordapp.net/attachments/1138198617463730330/1181468333263044680/OR.webp?ex=65812b21&is=656eb621&hm=98f9ec24a67731715b3a0126dda747165b4481f8c8013fedbedf55f531963ffd&=&format=webp" alt="OR Gate" width="400" height="200">
     <input type="submit" value="Submit">
 </form>
 <h2 id="combined"></h2>
