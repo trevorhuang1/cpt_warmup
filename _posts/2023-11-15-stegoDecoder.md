@@ -30,6 +30,10 @@ courses: { compsci: {week: 1} }
         #blue{
             color: blue;
         }
+        #soundBox{
+            font-size: 20px;
+            color: white;
+        }
     </style>
     <title>Binary Counter</title>
 </head>
@@ -40,8 +44,7 @@ courses: { compsci: {week: 1} }
 <!-- <div id="sheepContainer">
     <img src="https://media.discordapp.net/attachments/770342230925246505/1174717359647367168/sheep.gif?ex=65689bcb&is=655626cb&hm=578b09c94ccca31eddeffa7660f277a1ef462768d291886358930ba87a4866d0&=&width=300&height=300" id="sheepGif">
 </div> -->
-
-
+<div id="soundBox"></div>
 <button onclick="randomRGB()">Generate Random Color</button>
 <div id="binary-display" class="basicChex">Binary Value: 0</div>
 <div id="binary-display2" class="basicChex">2nd Binary Value: 0</div>
@@ -61,12 +64,30 @@ courses: { compsci: {week: 1} }
 <button id="increment-button3" onclick="incrementBinary3()">Counter 3</button>
 
 <script>
+    let soundEffectCounter = 0;
+    let sounds = ["Baaaah","Moo", "Chirp", "Bark", "Meow", "make sure to enter an 8 bit value into color channel", "Keep Counting", "I'm so tired", "My mental health is declining", "SAVE ME", "PLEAse!", "WHY AM I STUCK IN THIS WEBSITe", "AAhhh...."];
     window.onload = function(){
         setTimeout(alert("Mooo. Did you know that colors come in a total of 24 bits(binary value) to represent a color?"),2000);
         setTimeout(alert("Moo. Anyways, I'm tired of being a transparent sheep. Try and play around with those bits!"),3000);
         setTimeout(alert("Cluck Cluck. Remember, you can only enter 8 bits per color channel :)"),3000);
     };
-    
+    function getRandomSound() {
+        
+        return sounds[soundEffectCounter];
+    }
+
+    function displayRandomSound() {
+        soundEffectCounter++
+        if (soundEffectCounter === sounds.length){
+            soundEffectCounter = 0;
+        }
+        var soundBox = document.getElementById("soundBox");
+        var randomSound = getRandomSound();
+        soundBox.textContent = `The Sheep Says: ${randomSound}`;
+    }
+
+    // Update the sound every 2 seconds
+    setInterval(displayRandomSound, 2000);
     let binaryValue = 0;
     let binaryValue2 = 0;
     let binaryValue3 = 0;
