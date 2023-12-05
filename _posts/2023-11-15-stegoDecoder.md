@@ -32,7 +32,7 @@ courses: { compsci: {week: 1} }
         }
         #soundBox{
             font-size: 20px;
-            color: white;
+            color: #61c0a8;
         }
     </style>
     <title>Binary Counter</title>
