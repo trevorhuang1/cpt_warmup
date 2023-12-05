@@ -76,7 +76,7 @@ courses: { compsci: {week: 1} }
         var red = Math.random()*(255-1) + 1;
         var green = Math.random()*(255-1) + 1;
         var blue = Math.random()*(255-1) + 1;
-
+        numSheep ++;
         binaryValue = red;
         binaryValue2 = green;
         binaryValue3 = blue;
