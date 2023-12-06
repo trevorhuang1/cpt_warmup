@@ -106,3 +106,5 @@ type: tangibles
         crossorigin="anonymous"
         async>
 </script>
+
+{% include binarycpt.html %}

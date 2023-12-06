@@ -207,3 +207,5 @@ courses: { compsci: {week: 1} }
     }
 
 </script>
+
+{% include binarycpt.html %}
