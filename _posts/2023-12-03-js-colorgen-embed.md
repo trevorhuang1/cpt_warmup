@@ -5,6 +5,7 @@ layout: base
 title: Color Generator
 description: Color Generator
 courses: {compsci: {week: 1}}
+permalink: /binarycpt/colorgen
 type: tangibles
 ---
 

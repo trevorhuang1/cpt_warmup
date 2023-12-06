@@ -2,7 +2,8 @@
 title: Password Combiner
 comments: true
 description: Combines two passwords into one with logic gates
-type: hacks
+type: tangibles
+permalink: /binarycpt/password-combiner
 courses: { compsci: {week: 1} }
 ---
 

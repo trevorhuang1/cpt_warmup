@@ -2,7 +2,8 @@
 layouts: base
 title: Sheep Counter
 comments: false
-type: hacks
+type: tangibles
+permalink: /binarycpt/counting-sheep
 courses: { compsci: {week: 1} }
 ---
 
