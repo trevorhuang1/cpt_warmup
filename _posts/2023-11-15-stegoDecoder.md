@@ -7,6 +7,8 @@ permalink: /binarycpt/counting-sheep
 courses: { compsci: {week: 1} }
 ---
 
+{% include binarycpt.html %}
+
 <div class="snow_wrap">
     <div class="snow"></div>
 </div>
@@ -189,5 +191,3 @@ courses: { compsci: {week: 1} }
 
 </body>
 </html>
-
-{% include binarycpt.html %}

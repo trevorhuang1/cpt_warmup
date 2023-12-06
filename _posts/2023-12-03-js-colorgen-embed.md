@@ -9,6 +9,8 @@ permalink: /binarycpt/colorgen
 type: tangibles
 ---
 
+{% include binarycpt.html %}
+
 # Color Generator
 
 - Input decimal values 0-255 in each box
@@ -107,4 +109,3 @@ type: tangibles
         async>
 </script>
 
-{% include binarycpt.html %}

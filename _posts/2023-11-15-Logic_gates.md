@@ -7,6 +7,8 @@ permalink: /binarycpt/password-combiner
 courses: { compsci: {week: 1} }
 ---
 
+{% include binarycpt.html %}
+
 <body>
 <!-- Collapsible button -->
 <button type="button" class="collapsible">How the code works:</button>
@@ -207,5 +209,3 @@ courses: { compsci: {week: 1} }
     }
 
 </script>
-
-{% include binarycpt.html %}
