@@ -5,7 +5,7 @@ layout: base
 title: Color Generator
 description: Color Generator
 courses: {compsci: {week: 1}}
-type: hacks
+type: tangibles
 ---
 
 # Color Generator
@@ -81,9 +81,14 @@ type: hacks
 </body>
 </html>
 
-## Process Diagram
+## Ideation Diagram
 
 <img src = "https://media.discordapp.net/attachments/1174540464951676969/1174591418451369994/image.png?ex=65682681&is=6555b181&hm=10da97d668d2ce6c0e1dea11fd5e9fd743ab5dacc88778b282c5017d15aa1c79&=&width=1333&height=993">
+
+
+## Final Diagram
+
+<img src = "https://media.discordapp.net/attachments/796087225535168512/1182040744190550118/image.png?ex=6583403a&is=6570cb3a&hm=2d008e16457e80c4ea34228b8aa01bb605bb9d335c63db48f012653e1a1815ed&=&format=webp&quality=lossless&width=519&height=915">
 
 
 
