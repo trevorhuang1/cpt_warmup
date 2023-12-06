@@ -88,7 +88,7 @@ type: tangibles
 
 ## Final Diagram
 
-<img src = "https://media.discordapp.net/attachments/796087225535168512/1182040744190550118/image.png?ex=6583403a&is=6570cb3a&hm=2d008e16457e80c4ea34228b8aa01bb605bb9d335c63db48f012653e1a1815ed&=&format=webp&quality=lossless&width=519&height=915">
+<img src = "https://media.discordapp.net/attachments/796087225535168512/1182042253544390677/image.png?ex=658341a2&is=6570cca2&hm=b9f88c35b358da82ba5c602f1066a93376ce8719f7de9bb61972c69f27a1e644&=&format=webp&quality=lossless&width=1189&height=993">
 
 
 
