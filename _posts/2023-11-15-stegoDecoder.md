@@ -155,6 +155,10 @@ courses: { compsci: {week: 1} }
         document.getElementById("binary-input").placeholder = `${(binaryValue & 0xFF).toString(2).padStart(8, '0')}`;
         document.getElementById("binary-input2").placeholder = `${(binaryValue2 & 0xFF).toString(2).padStart(8, '0')}`;
         document.getElementById("binary-input3").placeholder = `${(binaryValue3 & 0xFF).toString(2).padStart(8, '0')}`;
+//
+        document.getElementById("binary-input").value = `${(binaryValue & 0xFF).toString(2).padStart(8, '0')}`;
+        document.getElementById("binary-input2").value = `${(binaryValue2 & 0xFF).toString(2).padStart(8, '0')}`;
+        document.getElementById("binary-input3").value = `${(binaryValue3 & 0xFF).toString(2).padStart(8, '0')}`;
         updateBinaryDisplay();
     }
 //
