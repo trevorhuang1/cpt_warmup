@@ -1,7 +1,7 @@
 ---
 layouts: base
 title: Sheep Counter
-comments: false
+comments: true
 type: tangibles
 permalink: /binarycpt/counting-sheep
 courses: { compsci: {week: 1} }
@@ -37,6 +37,8 @@ courses: { compsci: {week: 1} }
         #soundBox{
             font-size: 20px;
             color: #fff;
+            width: 1000px;
+            height: 80px;
         }
     </style>
     <title>Binary Counter</title>
@@ -78,7 +80,22 @@ courses: { compsci: {week: 1} }
 </div>
 <script>
     let soundEffectCounter = 0;
-    let sounds = ["Baaaah","Moo", "Chirp", "Bark", "Meow", "make sure to enter an 8 bit value into color channel", "Keep Counting", "I'm so tired", "My mental health is declining", "SAVE ME", "PLEAse!", "WHY AM I STUCK IN THIS WEBSITe", "AAhhh...."];
+    let sounds = [
+  "Binary is a base-2 numeral system, meaning it uses two digits: 0 and 1.",
+  "Each digit in a binary number is called a bit, which is a contraction of 'binary digit.'",
+  "The smallest unit of data in computing is the bit, and it can represent one of two values: 0 or 1.",
+  "Bytes are groups of 8 bits, and they are commonly used to represent a character in computer systems.",
+  "Color in digital systems is often represented using binary codes, with each component (Red, Green, Blue) being assigned a specific binary value.",
+  "In RGB color representation, each color channel (Red, Green, Blue) typically uses 8 bits, allowing for 256 different intensity levels for each channel.",
+  "Hexadecimal (base-16) is frequently used to represent color values in web development and digital design.",
+  "Color depth, measured in bits per pixel, determines the number of colors that can be represented in an image; common values are 24-bit (True Color) and 32-bit (with an additional alpha channel for transparency).",
+  "Binary-coded color representations are used in image processing algorithms and computer vision applications.",
+  "In digital imaging, the concept of color gamut refers to the range of colors that can be accurately represented, often specified using binary values for different color spaces.",
+  "The popular image file formats such as JPEG and PNG store color information using binary encoding.",
+  "Color quantization is a process in which the number of distinct colors in an image is reduced, often achieved by using binary representations of color values.",
+  "CMYK color model, widely used in color printing, is based on subtractive color mixing and can also be represented using binary values.",
+  "Binary representations of color are crucial in computer graphics, where shaders and rendering engines utilize precise color calculations for realistic visual effects.",]
+    // let sounds = ["Baaaah","Moo", "Chirp", "Bark", "Meow", "make sure to enter an 8 bit value into color channel", "Keep Counting", "I'm so tired", "My mental health is declining", "SAVE ME", "PLEAse!", "WHY AM I STUCK IN THIS WEBSITe", "AAhhh...."];
     window.onload = function(){
         setTimeout(alert("Mooo. Did you know that colors come in a total of 24 bits(binary value) to represent a color?"),2000);
         setTimeout(alert("Moo. Anyways, I'm tired of being a transparent sheep. Try and play around with those bits!"),3000);
@@ -108,18 +125,21 @@ courses: { compsci: {week: 1} }
         binaryValue += 10;
         numSheep++
         document.getElementById("binary-input").placeholder = `${(binaryValue & 0xFF).toString(2).padStart(8, '0')}`;
+        document.getElementById("binary-input").value = `${(binaryValue & 0xFF).toString(2).padStart(8, '0')}`;
         updateBinaryDisplay();
     }
     function add2(){
         binaryValue2 += 10;
         numSheep++
         document.getElementById("binary-input2").placeholder = `${(binaryValue2 & 0xFF).toString(2).padStart(8, '0')}`;
+        document.getElementById("binary-input2").value = `${(binaryValue2 & 0xFF).toString(2).padStart(8, '0')}`;
         updateBinaryDisplay();
     }
     function add3(){
         binaryValue3 += 10;
         numSheep++
         document.getElementById("binary-input3").placeholder = `${(binaryValue3 & 0xFF).toString(2).padStart(8, '0')}`;
+        document.getElementById("binary-input3").value = `${(binaryValue3 & 0xFF).toString(2).padStart(8, '0')}`;
         updateBinaryDisplay();
     }
 //
