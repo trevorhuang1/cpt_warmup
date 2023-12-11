@@ -25,8 +25,10 @@ permalink: /binarycpt/home
 - Overall, our features were fairly disconnected from each other the only shared element was binary. Rather than separate individual features, it would have been better to create a unified project and adding features to build on that project. The lack of unity among features resulted in less exchanges among group members which is something we should improve upon in the future. 
 - To improve on the next project we plan on focusing more on the ideation aspect and fleshing out the elements and possible challenges of the project beforehand. By putting more thought into our ideation process it increases the likelihood that our features will build on each other. To increase the team exchanges we plan on holding daily standups more often to check in on each other and ensure that every team member is always on the same page. 
 
-
 ## Individuals
+- <a href="https://github.com/M8tth3/m8th3_2.0/issues/1">Matthew Review Ticket</a>
+- <a href="https://github.com/ad1tyad3sa1/studentCSP/issues/1">Aditya Review Ticket</a>
+
 
 <table>
     <tbody>
@@ -87,3 +89,12 @@ permalink: /binarycpt/home
 </table>
 <!--  -->
 
+
+
+<script src="https://utteranc.es/client.js"
+        repo="trevorhuang1/cpt_warmup"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
