@@ -6,7 +6,11 @@ title: CPT Warmup Fin
 description: CPT Warmup Tangibles
 courses: {compsci: {week: 3}}
 type: tangibles
+permalink: /binarycpt/home
 ---
+
+{% include binarycpt.html %}
+
 
 <div class="snow_wrap">
     <div class="snow"></div>
@@ -83,5 +87,15 @@ type: tangibles
 </table>
 <!--  -->
 
+<<<<<<< HEAD
 
 
+=======
+<script src="https://utteranc.es/client.js"
+        repo="trevorhuang1/cpt_warmup"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+>>>>>>> cdcf2be1ccfaa9b0de1dcf9456d22661467b619f

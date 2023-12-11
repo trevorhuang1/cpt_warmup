@@ -52,7 +52,7 @@ type: tangibles
             <td><a href="https://github.com/M8tth3">Profile</a>,<a href="https://github.com/trevorhuang1/cpt_warmup/actions?query=actor%3AM8tth3++">Workflow</a></td>
         </tr>
         <tr>
-            <td>Lakshanya<td>
+            <td>Lakshanya Sankaran<td>
             <td><a href="https://trevorhuang1.github.io/cpt_warmup//binarycpt/colorgen">Color Generator</a></td>
             <td><iframe width="186" height="105" src="https://www.youtube.com/embed/6kySmN-ALZc?si=Btnus42cAiJR6wyO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
             <td><a href="https://github.com/trevorhuang1/cpt_warmup/issues/4">Issue (initial concept)</a><td>
@@ -61,3 +61,11 @@ type: tangibles
 <!--  -->
     </tbody>
 </table>
+
+<script src="https://utteranc.es/client.js"
+        repo="trevorhuang1/cpt_warmup"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
