@@ -37,7 +37,7 @@ type: tangibles
             <td>Hanlun Li<td>
             <td><a href="https://trevorhuang1.github.io/cpt_warmup//binarycpt/steganography">Steganography</a></td>
             <td><iframe width="186" height="105" src="https://www.youtube.com/embed/DxeNFm_G2BY?si=JbQiivypj5Bewpwa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
-            <td><a href="https://github.com/trevorhuang1/cpt_warmup/issues/3"> </a><td>
+            <td><a href="https://github.com/trevorhuang1/cpt_warmup/issues/3">My Issue</a><td>
             <td></td>
         </tr>
         <tr>
