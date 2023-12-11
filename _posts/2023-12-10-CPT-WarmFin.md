@@ -31,6 +31,12 @@ type: tangibles
         </tr>
         <tr>
             <td>Trevor Huang</td>
+            <td></td>
+            <td><a href="https://trevorhuang1.github.io/cpt_warmup//binarycpt/password-combiner">Password Combiner</a></td>
+            <td><iframe width="186" height="105" src="https://www.youtube.com/embed/2r-a3uKsKcQ?si=1EjfRtFTQFguLgZ1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
+            <td><a href="https://github.com/trevorhuang1/cpt_warmup/issues/5">My Issue</a></td>
+            <td><a href="https://github.com/trevorhuang1/cpt_warmup/commit/f96393709dc9e6e1c28a78b33005e64f71fac3ce">Elementary password combiner</a>, <a href="https://github.com/trevorhuang1/cpt_warmup/commit/a90b7064a68e6d0c694ba5efe179a28a4ed293ee">Animation</a></td>
+            <td><a href="https://github.com/trevorhuang1">Profile</a>,<a href="https://github.com/trevorhuang1/cpt_warmup/actions?query=actor:trevorhuang1">Workflow</a></td>
         </tr>
 <!--  -->
         <tr>
