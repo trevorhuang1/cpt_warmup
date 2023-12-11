@@ -91,6 +91,8 @@ permalink: /binarycpt/home
 <!--  -->
 
 
+<a href="https://github.com/trevorhuang1/cpt_warmup/issues/1">Comment on Issues (linked)</a>
+
 
 <script src="https://utteranc.es/client.js"
         repo="trevorhuang1/cpt_warmup"
