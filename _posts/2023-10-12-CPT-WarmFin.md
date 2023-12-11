@@ -37,14 +37,15 @@ type: tangibles
             <td>Hanlun Li<td>
             <td><a href="https://trevorhuang1.github.io/cpt_warmup//binarycpt/steganography">Steganography</a></td>
             <td><iframe width="186" height="105" src="https://www.youtube.com/embed/DxeNFm_G2BY?si=JbQiivypj5Bewpwa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
-            <td><a href="https://github.com/trevorhuang1/cpt_warmup/issues/3">My Issue</a><td>
-            <td></td>
+            <td><a href="https://github.com/trevorhuang1/cpt_warmup/issues/3">My Issue</a></td>
+            <td><a href="https://github.com/trevorhuang1/cpt_warmup/commit/19b5222fb5bb63762c1bba148aca17f166b11b13">Stego</a></td>
+            <td><a href="https://github.com/hanlunli">Profile</a>,<a href="https://github.com/trevorhuang1/cpt_warmup/actions?query=actor%3Ahanlunli">Workflow</a></td>
         </tr>
         <tr>
             <td>Matthew Wakayama<td>
             <td><a href="https://trevorhuang1.github.io/cpt_warmup//binarycpt/counting-sheep">Binary Sheep Counter</a></td>
             <td><iframe width="186" height="105" src="https://www.youtube.com/embed/pa7BQ9T9C1M?si=7H_47InuzpRYcdYa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
-            <td><a href="https://github.com/trevorhuang1/cpt_warmup/issues/2">Initial Ideation Issue</a><td>
+            <td><a href="https://github.com/trevorhuang1/cpt_warmup/issues/2">Initial Ideation Issue</a></td>
             <td><a href="https://github.com/trevorhuang1/cpt_warmup/commit/2d2963b0421167fcaaa29f84c8629adaeae979be">Christmas SASS</a>, <a href="https://github.com/trevorhuang1/cpt_warmup/commit/91038ae23158fc9fc865837d3a57ceba8d57ab6b">Sheep Random Color Gen</a></td>
             <td><a href="https://github.com/M8tth3">Profile</a>,<a href="https://github.com/trevorhuang1/cpt_warmup/actions?query=actor%3AM8tth3++">Workflow</a></td>
         </tr>
@@ -52,8 +53,9 @@ type: tangibles
             <td>Lakshanya<td>
             <td><a href="https://trevorhuang1.github.io/cpt_warmup//binarycpt/colorgen">Color Generator</a></td>
             <td><iframe width="186" height="105" src="https://www.youtube.com/embed/6kySmN-ALZc?si=Btnus42cAiJR6wyO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
-            <td><a href="https://github.com/trevorhuang1/cpt_warmup/issues/4">Issue (initial concept)</a><td>
-            <td></td>
+            <td><a href="https://github.com/trevorhuang1/cpt_warmup/issues/4">Issue (initial concept)</a></td>
+            <td><a href="https://github.com/trevorhuang1/cpt_warmup/commit/9da25de7e4f114a33fdb5028e7b4d3d236659a6e">js color generator</a>, <a href="https://github.com/trevorhuang1/cpt_warmup/commit/2d1eac0c2044606f30e2e8d65da9342d9a673608">python binary colorgen</a>, <a href="https://github.com/trevorhuang1/cpt_warmup/commit/a9aa10d3a696960b662604dc98f4ea624c7f5fe5">sample color input</a></td>
+            <td><a href="https://github.com/lakshusan">Profile</a>,<a href="https://github.com/trevorhuang1/cpt_warmup/actions?query=actor%3Alakshusan">Workflow</a></td>
         </tr>
 <!--  -->
     </tbody>
