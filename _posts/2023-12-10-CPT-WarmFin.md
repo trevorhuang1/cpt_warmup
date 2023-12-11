@@ -6,7 +6,11 @@ title: CPT Warmup Fin
 description: CPT Warmup Tangibles
 courses: {compsci: {week: 3}}
 type: tangibles
+permalink: /binarycpt/home
 ---
+
+{% include binarycpt.html %}
+
 
 <div class="snow_wrap">
     <div class="snow"></div>
