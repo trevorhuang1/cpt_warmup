@@ -31,7 +31,7 @@ permalink: /binarycpt/home
 - <a href="https://github.com/trevorhuang1/cpt_warmup/issues/8">Hanlun Review Ticket</a>
 =======
 - <a href="https://github.com/ad1tyad3sa1/studentCSP/issues/1">Aditya Review Ticket</a>
-- <a href="https://github.com/trevorhuang1/csp_blog/issues/1">Trevor Review Ticket</a></td>
+- <a href="https://github.com/trevorhuang1/csp_blog/issues/1">Trevor Review Ticket</a>
 
 >>>>>>> a3d965a567afaff28358b82c2d138543491b0626
 
