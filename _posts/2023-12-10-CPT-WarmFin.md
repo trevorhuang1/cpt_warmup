@@ -27,12 +27,10 @@ permalink: /binarycpt/home
 
 ## Individuals
 - <a href="https://github.com/M8tth3/m8th3_2.0/issues/1">Matthew Review Ticket</a>
-<<<<<<< HEAD
 - <a href="https://github.com/trevorhuang1/cpt_warmup/issues/8">Hanlun Review Ticket</a>
-=======
 - <a href="https://github.com/ad1tyad3sa1/studentCSP/issues/1">Aditya Review Ticket</a>
+- <a href="https://github.com/trevorhuang1/cpt_warmup/issues/4">Lakshanya Review Ticket</a>
 
->>>>>>> a3d965a567afaff28358b82c2d138543491b0626
 >>>>>>> ffcc13192110641f2a240d2199b88d9eb39ae962
 
 <table>
