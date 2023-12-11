@@ -45,7 +45,7 @@ type: tangibles
             <td><a href="https://trevorhuang1.github.io/cpt_warmup//binarycpt/counting-sheep">Binary Sheep Counter</a></td>
             <td><iframe width="186" height="105" src="https://www.youtube.com/embed/pa7BQ9T9C1M?si=7H_47InuzpRYcdYa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
             <td><a href="https://github.com/trevorhuang1/cpt_warmup/issues/2">Initial Ideation Issue</a><td>
-            <td></td>
+            <td><a href="https://github.com/trevorhuang1/cpt_warmup/commit/2d2963b0421167fcaaa29f84c8629adaeae979be">Christmas SASS</a>, <a href="https://github.com/trevorhuang1/cpt_warmup/commit/91038ae23158fc9fc865837d3a57ceba8d57ab6b">Sheep Random Color Gen</a></td>
             <td><a href="https://github.com/M8tth3">Profile</a>,<a href="https://github.com/trevorhuang1/cpt_warmup/actions?query=actor%3AM8tth3++">Workflow</a></td>
         </tr>
         <tr>
