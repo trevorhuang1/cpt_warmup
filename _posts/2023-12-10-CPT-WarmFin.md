@@ -14,10 +14,8 @@ type: tangibles
 
 # CPT Warmup Final Review
 
-## Retrospective
-- The project went fairly well as we were able to create a variety of intuitive, interactive features. In the end we were able to achieve everything we initially set out to do.
-- Overall, our features were fairly disconnected from each other the only shared element was binary. Rather than separate individual features, it would have been better to create a unified project and adding features to build on that project. The lack of unity among features resulted in less exchanges among group members which is something we should improve upon in the future. 
-- To improve on the next project we plan on focusing more on the ideation aspect and fleshing out the elements and possible challenges of the project beforehand. By putting more thought into our ideation process it increases the likelihood that our features will build on each other. To increase the team exchanges we plan on holding daily standups more often to check in on each other and ensure that every team member is always on the same page. 
+## Overview of Project
+- Our project involves a variety of binary features to teach the user of the many different implementations of binary. 
 
 ## Individuals
 
@@ -78,3 +76,8 @@ type: tangibles
 <!--  -->
     </tbody>
 </table>
+
+## Retrospective
+- The project went fairly well as we were able to create a variety of intuitive, interactive features. In the end we were able to achieve everything we initially set out to do.
+- Overall, our features were fairly disconnected from each other the only shared element was binary. Rather than separate individual features, it would have been better to create a unified project and adding features to build on that project. The lack of unity among features resulted in less exchanges among group members which is something we should improve upon in the future. 
+- To improve on the next project we plan on focusing more on the ideation aspect and fleshing out the elements and possible challenges of the project beforehand. By putting more thought into our ideation process it increases the likelihood that our features will build on each other. To increase the team exchanges we plan on holding daily standups more often to check in on each other and ensure that every team member is always on the same page. 
