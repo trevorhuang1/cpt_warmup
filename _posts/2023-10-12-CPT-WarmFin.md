@@ -48,7 +48,11 @@ type: tangibles
             <td></td>
         </tr>
         <tr>
-            <td>Lakshanya</td>
+            <td>Lakshanya<td>
+            <td><a href="https://trevorhuang1.github.io/cpt_warmup//binarycpt/colorgen">Color Generator</a></td>
+            <td><iframe width="560" height="315" src="https://www.youtube.com/embed/6kySmN-ALZc?si=Btnus42cAiJR6wyO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
+            <td><a href="https://github.com/trevorhuang1/cpt_warmup/issues/4"> </a><td>
+            <td></td>
         </tr>
 <!--  -->
     </tbody>
