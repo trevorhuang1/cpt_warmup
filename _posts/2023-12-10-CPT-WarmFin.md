@@ -27,6 +27,7 @@ permalink: /binarycpt/home
 
 ## Individuals
 - <a href="https://github.com/M8tth3/m8th3_2.0/issues/1">Matthew Review Ticket</a>
+- <a href="https://github.com/trevorhuang1/cpt_warmup/issues/8">Hanlun Review Ticket</a>
 
 <table>
     <tbody>
