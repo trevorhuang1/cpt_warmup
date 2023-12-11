@@ -33,7 +33,6 @@ courses: { compsci: {week: 1} }
 <script>
     var coll = document.getElementsByClassName("collapsible");
     var i;
-
     for (i = 0; i < coll.length; i++) {
         coll[i].addEventListener("click", function() {
             this.classList.toggle("active");
@@ -48,6 +47,34 @@ courses: { compsci: {week: 1} }
 </script>
 </body>
 <style>
+    #container {
+        width: 800px;
+        height: 400px;
+        position: relative;
+        background: #006400;
+    }
+    .animate {
+        position: relative;
+    }
+    #animate1 {
+        float: left;
+        color: black;
+    }
+    #animate2 {
+        float: right;
+        color: black;
+    }
+    #box {
+        width: 200px;
+        height: 100px;
+        position: absolute;
+        background: #8B0000;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        color: black;
+        text-align: center;
+    }
     /* Style the button that is used to open and close the collapsible content */
     .collapsible {
         background-color: #8B0000;
@@ -96,6 +123,16 @@ courses: { compsci: {week: 1} }
 </form>
 <h2 id="combined"></h2>
 
+<p><button onclick="move()">Start Animation</button></p>
+
+<div id="container">
+    <div id="animate1" class="animate">Password 1 goes here</div>
+    <div id="animate2" class="animate">Password 2 goes here</div>
+    <div>
+        <p id="box">Logic gate goes here</p>
+    </div>
+</div>
+
 <script>
     function combinePasswords(event) {
         // Prevents from refreshing which would refresh the display for combined password
@@ -118,8 +155,41 @@ courses: { compsci: {week: 1} }
         console.log("Second password: " + binary2);
         // displays
         document.getElementById("combined").innerHTML = "Combined password: " + binaryToText(combined);
-    }
 
+        //animation code starts here
+        document.getElementById("animate1").innerHTML = binary1;
+        document.getElementById("animate2").innerHTML = binary2;
+        document.getElementById("box").innerHTML = gateType + " gate";
+    }
+    function move() {
+        //https://www.w3schools.com/js/js_htmldom_animate.asp
+        let id = null;
+        const element1 = document.getElementById("animate1");
+        const element2 = document.getElementById("animate2");   
+        let pos1 = 0;
+        let pos2 = 0;
+        clearInterval(id);
+        id = setInterval(frame, 5);
+        function frame() {
+            if (pos1 == 200 || pos2 == 200) {
+                clearInterval(id);
+                document.getElementById("animate1").style.visibility = "hidden";
+                document.getElementById("animate2").style.visibility = "hidden";
+            }
+            else {
+                pos1++;
+                pos2++;
+                console.log(pos2);
+                //moves diagonal towards bottom right
+                element1.style.top = pos1 + "px"; 
+                element1.style.left = pos1 + "px";
+                //moves diagonal towards bottom left
+                element2.style.top = pos2 + "px";
+                element2.style.right = pos2 + "px";
+            }
+        }
+    }
+    
     //https://stackoverflow.com/questions/14430633/how-to-convert-text-to-binary-code-in-javascript
     function textToBinary(text) {
         var binary = ""; 
@@ -130,36 +200,29 @@ courses: { compsci: {week: 1} }
             //charCodeAt(0) retrieves the unicode character code of the character at i
             //.toString(2) converts unicode to binary
             charBinary += text[i].charCodeAt(0).toString(2);
-
             // pad with leading zeros
             while (charBinary.length < 8) {
                 charBinary = "0" + charBinary;
             }
-
             // concat and adding necessary space
             binary += charBinary;
         }
         return binary.trim();
     }
-
     function binaryToText(binary) {
         var text = "";
         // Split the binary string into 8-bit chunks
         var binaryChunks = binary.match(/.{1,8}/g);
-
         // Convert each 8-bit chunk to decimal and then to ASCII
         for (var i = 0; i < binaryChunks.length; i++) {
             var decimalValue = parseInt(binaryChunks[i], 2);
-
             // Check if the ASCII character is printable
             if (decimalValue >= 32 && decimalValue <= 126) {
                 text += String.fromCharCode(decimalValue);
             }
         }
-
         return text;
     }
-
     function andGate(binary1, binary2) {
         var result = "";
         var shorter = 0;
