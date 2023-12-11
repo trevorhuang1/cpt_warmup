@@ -5,8 +5,11 @@ layout: base
 title: Color Generator
 description: Color Generator
 courses: {compsci: {week: 1}}
+permalink: /binarycpt/colorgen
 type: tangibles
 ---
+
+{% include binarycpt.html %}
 
 # Color Generator
 
@@ -105,3 +108,4 @@ type: tangibles
         crossorigin="anonymous"
         async>
 </script>
+
