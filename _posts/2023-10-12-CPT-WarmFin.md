@@ -40,8 +40,9 @@ type: tangibles
             <td>Matthew Wakayama<td>
             <td><a href="https://trevorhuang1.github.io/cpt_warmup//binarycpt/counting-sheep">Binary Sheep Counter</a></td>
             <td><iframe width="186" height="105" src="https://www.youtube.com/embed/pa7BQ9T9C1M?si=7H_47InuzpRYcdYa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
-            <td><a href="https://github.com/trevorhuang1/cpt_warmup/issues/2"> </a><td>
+            <td><a href="https://github.com/trevorhuang1/cpt_warmup/issues/2">Initial Ideation Issue</a><td>
             <td></td>
+            <td><a href="https://github.com/M8tth3">Profile</a>,<a href="https://github.com/trevorhuang1/cpt_warmup/actions?query=actor%3AM8tth3++">Workflow</a></td>
         </tr>
         <tr>
             <td>Lakshanya</td>
