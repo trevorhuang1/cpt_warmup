@@ -31,8 +31,6 @@ permalink: /binarycpt/home
 - <a href="https://github.com/ad1tyad3sa1/studentCSP/issues/1">Aditya Review Ticket</a>
 - <a href="https://github.com/trevorhuang1/cpt_warmup/issues/4">Lakshanya Review Ticket</a>
 
->>>>>>> ffcc13192110641f2a240d2199b88d9eb39ae962
-
 <table>
     <tbody>
         <tr>
