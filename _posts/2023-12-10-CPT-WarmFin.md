@@ -28,6 +28,7 @@ permalink: /binarycpt/home
 ## Individuals
 - <a href="https://github.com/M8tth3/m8th3_2.0/issues/1">Matthew Review Ticket</a>
 - <a href="https://github.com/ad1tyad3sa1/studentCSP/issues/1">Aditya Review Ticket</a>
+- <a href="https://github.com/trevorhuang1/csp_blog/issues/1">Trevor Review Ticket</a></td>
 
 
 <table>
@@ -48,7 +49,7 @@ permalink: /binarycpt/home
             <td><iframe width="186" height="105" src="https://www.youtube.com/embed/2r-a3uKsKcQ?si=1EjfRtFTQFguLgZ1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
             <td><a href="https://github.com/trevorhuang1/cpt_warmup/issues/5">My Issue</a></td>
             <td><a href="https://github.com/trevorhuang1/cpt_warmup/commit/f96393709dc9e6e1c28a78b33005e64f71fac3ce">Elementary password combiner</a>, <a href="https://github.com/trevorhuang1/cpt_warmup/commit/a90b7064a68e6d0c694ba5efe179a28a4ed293ee">Animation</a></td>
-            <td><a href="https://github.com/trevorhuang1">Profile</a>,<a href="https://github.com/trevorhuang1/cpt_warmup/actions?query=actor:trevorhuang1">Workflow</a>,<a href="https://github.com/trevorhuang1/csp_blog/issues/1">Ticket</a></td>
+            <td><a href="https://github.com/trevorhuang1">Profile</a>,<a href="https://github.com/trevorhuang1/cpt_warmup/actions?query=actor:trevorhuang1">Workflow</a>
         </tr>
 <!--  -->
         <tr>
