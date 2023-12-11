@@ -87,3 +87,10 @@ permalink: /binarycpt/home
 </table>
 <!--  -->
 
+<script src="https://utteranc.es/client.js"
+        repo="trevorhuang1/cpt_warmup"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
