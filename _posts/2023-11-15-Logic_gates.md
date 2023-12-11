@@ -67,6 +67,12 @@ courses: { compsci: {week: 1} }
         float: right;
         color: black;
     }
+    #animate3 {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
     #box {
         width: 200px;
         height: 100px;
@@ -134,6 +140,7 @@ courses: { compsci: {week: 1} }
     <div>
         <p id="box">Logic gate goes here</p>
     </div>
+    <div id="animate3" class="animate">Combined password goes here</div>
 </div>
 
 <script>
@@ -147,6 +154,7 @@ courses: { compsci: {week: 1} }
         // turns into binary using function
         var binary1 = textToBinary(password1);
         var binary2 = textToBinary(password2);
+        var combined;
         //combines with and gate
         if (gateType == "and") {
             var combined = andGate(binary1, binary2);
@@ -162,13 +170,18 @@ courses: { compsci: {week: 1} }
         //animation code starts here
         document.getElementById("animate1").innerHTML = binary1;
         document.getElementById("animate2").innerHTML = binary2;
+        document.getElementById("animate3").innerHTML = combined;
         document.getElementById("box").innerHTML = gateType + " gate";
     }
     function move() {
         //https://www.w3schools.com/js/js_htmldom_animate.asp
         let id = null;
         const element1 = document.getElementById("animate1");
-        const element2 = document.getElementById("animate2");   
+        const element2 = document.getElementById("animate2");
+        const element3 = document.getElementById("animate3");
+        element1.style.visibility = "visible";
+        element2.style.visibility = "visible";
+        element3.style.visibility = "hidden";   
         let pos1 = 0;
         let pos2 = 0;
         clearInterval(id);
@@ -178,11 +191,11 @@ courses: { compsci: {week: 1} }
                 clearInterval(id);
                 document.getElementById("animate1").style.visibility = "hidden";
                 document.getElementById("animate2").style.visibility = "hidden";
+                element3.style.visibility = "visible";
             }
             else {
                 pos1++;
                 pos2++;
-                console.log(pos2);
                 //moves diagonal towards bottom right
                 element1.style.top = pos1 + "px"; 
                 element1.style.left = pos1 + "px";
