@@ -27,6 +27,8 @@ permalink: /binarycpt/home
 
 ## Individuals
 - <a href="https://github.com/M8tth3/m8th3_2.0/issues/1">Matthew Review Ticket</a>
+- <a href="https://github.com/ad1tyad3sa1/studentCSP/issues/1">Aditya Review Ticket</a>
+
 
 <table>
     <tbody>
