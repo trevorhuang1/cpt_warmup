@@ -8,6 +8,9 @@ courses: {compsci: {week: 3}}
 type: tangibles
 ---
 
+<div class="snow_wrap">
+    <div class="snow"></div>
+</div>
 # CPT Warmup Final Review
 
 ## Retrospective
