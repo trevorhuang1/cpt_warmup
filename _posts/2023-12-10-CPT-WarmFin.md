@@ -85,10 +85,9 @@ permalink: /binarycpt/home
             <td><a href="https://github.com/trevorhuang1/cpt_warmup/commit/9da25de7e4f114a33fdb5028e7b4d3d236659a6e">js color generator</a>, <a href="https://github.com/trevorhuang1/cpt_warmup/commit/a9aa10d3a696960b662604dc98f4ea624c7f5fe5">sample color input</a></td>
             <td><a href="https://github.com/lakshusan">Profile</a>,<a href="https://github.com/trevorhuang1/cpt_warmup/actions?query=actor%3Alakshusan">Workflow</a></td>
         </tr>
-<!--  -->
     </tbody>
 </table>
-<!--  -->
+
 
 
 <a href="https://github.com/trevorhuang1/cpt_warmup/issues/1">Comment on Issues (linked)</a>
