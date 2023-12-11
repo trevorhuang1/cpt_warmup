@@ -26,7 +26,7 @@ permalink: /binarycpt/home
 - To improve on the next project we plan on focusing more on the ideation aspect and fleshing out the elements and possible challenges of the project beforehand. By putting more thought into our ideation process it increases the likelihood that our features will build on each other. To increase the team exchanges we plan on holding daily standups more often to check in on each other and ensure that every team member is always on the same page. 
 
 ## Individuals
-- <a href="https://github.com/M8tth3/m8th3_2.0/issues/1"></a>
+- <a href="https://github.com/M8tth3/m8th3_2.0/issues/1">Matthew Review Ticket</a>
 
 <table>
     <tbody>
@@ -87,10 +87,8 @@ permalink: /binarycpt/home
 </table>
 <!--  -->
 
-<<<<<<< HEAD
 
 
-=======
 <script src="https://utteranc.es/client.js"
         repo="trevorhuang1/cpt_warmup"
         issue-term="pathname"
@@ -98,4 +96,3 @@ permalink: /binarycpt/home
         crossorigin="anonymous"
         async>
 </script>
->>>>>>> cdcf2be1ccfaa9b0de1dcf9456d22661467b619f
