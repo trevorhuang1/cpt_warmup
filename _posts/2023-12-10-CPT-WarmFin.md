@@ -20,6 +20,7 @@ permalink: /binarycpt/home
 
 ## Overview of Project
 - Our project involves a variety of binary features to teach the user of the many different implementations of binary. 
+- <a href="https://trevorhuang1.github.io/cpt_warmup//2023/11/14/week13-plans.html">Ideation (click)</a>
 ## Retrospective
 - The project went fairly well as we were able to create a variety of intuitive, interactive features. In the end we were able to achieve everything we initially set out to do.
 - Overall, our features were fairly disconnected from each other the only shared element was binary. Rather than separate individual features, it would have been better to create a unified project and adding features to build on that project. The lack of unity among features resulted in less exchanges among group members which is something we should improve upon in the future. 
