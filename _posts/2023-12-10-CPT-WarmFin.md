@@ -27,13 +27,19 @@ permalink: /binarycpt/home
 
 ## Individuals
 - <a href="https://github.com/M8tth3/m8th3_2.0/issues/1">Matthew Review Ticket</a>
-<<<<<<< HEAD
 - <a href="https://github.com/trevorhuang1/cpt_warmup/issues/8">Hanlun Review Ticket</a>
-=======
 - <a href="https://github.com/ad1tyad3sa1/studentCSP/issues/1">Aditya Review Ticket</a>
 - <a href="https://github.com/trevorhuang1/csp_blog/issues/1">Trevor Review Ticket</a>
+- <a href="https://github.com/trevorhuang1/cpt_warmup/issues/4">Lakshanya Review Ticket</a>
 
->>>>>>> a3d965a567afaff28358b82c2d138543491b0626
+<script src="https://utteranc.es/client.js"
+        repo="trevorhuang1/cpt_warmup"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+
 
 <table>
     <tbody>
@@ -89,17 +95,6 @@ permalink: /binarycpt/home
             <td><a href="https://github.com/trevorhuang1/cpt_warmup/commit/9da25de7e4f114a33fdb5028e7b4d3d236659a6e">js color generator</a>, <a href="https://github.com/trevorhuang1/cpt_warmup/commit/a9aa10d3a696960b662604dc98f4ea624c7f5fe5">sample color input</a></td>
             <td><a href="https://github.com/lakshusan">Profile</a>,<a href="https://github.com/trevorhuang1/cpt_warmup/actions?query=actor%3Alakshusan">Workflow</a></td>
         </tr>
-<!--  -->
     </tbody>
 </table>
-<!--  -->
 
-
-
-<script src="https://utteranc.es/client.js"
-        repo="trevorhuang1/cpt_warmup"
-        issue-term="pathname"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>
