@@ -26,6 +26,8 @@ permalink: /binarycpt/home
 - Overall, our features were fairly disconnected from each other the only shared element was binary. Rather than separate individual features, it would have been better to create a unified project and adding features to build on that project. The lack of unity among features resulted in less exchanges among group members which is something we should improve upon in the future. 
 - To improve on the next project we plan on focusing more on the ideation aspect and fleshing out the elements and possible challenges of the project beforehand. By putting more thought into our ideation process it increases the likelihood that our features will build on each other. To increase the team exchanges we plan on holding daily standups more often to check in on each other and ensure that every team member is always on the same page. 
 
+**Team Score: 0.82/0.90**
+
 ## Individuals
 - <a href="https://github.com/M8tth3/m8th3_2.0/issues/1">Matthew Review Ticket</a>
 - <a href="https://github.com/trevorhuang1/cpt_warmup/issues/8">Hanlun Review Ticket</a>
@@ -55,7 +57,7 @@ permalink: /binarycpt/home
         </tr>
         <tr>
             <td>Trevor Huang</td>
-            <td></td>
+            <td>0.85</td>
             <td><a href="https://trevorhuang1.github.io/cpt_warmup//binarycpt/password-combiner">Password Combiner</a></td>
             <td><iframe width="186" height="105" src="https://www.youtube.com/embed/2r-a3uKsKcQ?si=1EjfRtFTQFguLgZ1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
             <td><a href="https://github.com/trevorhuang1/cpt_warmup/issues/5">My Issue</a></td>
@@ -65,7 +67,7 @@ permalink: /binarycpt/home
 <!--  -->
         <tr>
             <td>Aditya Desai</td>
-            <td></td>
+            <td>0.84</td>
             <td><a href="https://trevorhuang1.github.io/cpt_warmup//binarycpt/ascii-art">Ascii Art</a></td>
             <td><iframe width="186" height="105" src="https://www.youtube.com/embed/sgBVGWAV_W0?si=BgjFlQyOgEl-fWmd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
             <td><a href="https://github.com/trevorhuang1/cpt_warmup/issues/6">My Issue</a></td>
@@ -73,7 +75,8 @@ permalink: /binarycpt/home
             <td><a href="https://github.com/ad1tyad3sa1">Profile</a>,<a href="https://github.com/trevorhuang1/cpt_warmup/actions?query=actor%3Aad1tyad3sa1">Workflow</a></td>
         </tr>
         <tr>
-            <td>Hanlun Li<td>
+            <td>Hanlun Li</td>
+            <td>0.88</td>
             <td><a href="https://trevorhuang1.github.io/cpt_warmup//binarycpt/steganography">Steganography</a></td>
             <td><iframe width="186" height="105" src="https://www.youtube.com/embed/DxeNFm_G2BY?si=JbQiivypj5Bewpwa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
             <td><a href="https://github.com/trevorhuang1/cpt_warmup/issues/3">My Issue</a></td>
@@ -81,7 +84,8 @@ permalink: /binarycpt/home
             <td><a href="https://github.com/hanlunli">Profile</a>,<a href="https://github.com/trevorhuang1/cpt_warmup/actions?query=actor%3Ahanlunli">Workflow</a></td>
         </tr>
         <tr>
-            <td>Matthew Wakayama<td>
+            <td>Matthew Wakayama</td>
+            <td>0.85</td>
             <td><a href="https://trevorhuang1.github.io/cpt_warmup//binarycpt/counting-sheep">Binary Sheep Counter</a></td>
             <td><iframe width="186" height="105" src="https://www.youtube.com/embed/pa7BQ9T9C1M?si=7H_47InuzpRYcdYa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
             <td><a href="https://github.com/trevorhuang1/cpt_warmup/issues/2">Initial Ideation Issue</a></td>
@@ -89,7 +93,8 @@ permalink: /binarycpt/home
             <td><a href="https://github.com/M8tth3">Profile</a>,<a href="https://github.com/trevorhuang1/cpt_warmup/actions?query=actor%3AM8tth3++">Workflow</a></td>
         </tr>
         <tr>
-            <td>Lakshanya Sankaran<td>
+            <td>Lakshanya Sankaran</td>
+            <td>0.85</td>
             <td><a href="https://trevorhuang1.github.io/cpt_warmup//binarycpt/colorgen">Color Generator</a></td>
             <td><iframe width="186" height="105" src="https://www.youtube.com/embed/6kySmN-ALZc?si=Btnus42cAiJR6wyO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
             <td><a href="https://github.com/trevorhuang1/cpt_warmup/issues/4">Issue (initial concept)</a></td>
