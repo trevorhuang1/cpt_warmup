@@ -33,6 +33,10 @@ type: tangibles
             height: 200px;
             border: 1px solid #000;
         }
+
+        #colorText {
+            margin-top: 10px;
+        }
     </style>
     <script>
         function translateColor(event) {
@@ -51,7 +55,7 @@ type: tangibles
             var greenBinary = decimalToBinary(greenValue);
             var blueBinary = decimalToBinary(blueValue);
             // display binary output
-            document.getElementById("result").innerHTML = `
+            document.getElementById("colorText").innerHTML = `
                 <p>Red: ${redBinary}</p>
                 <p>Green: ${greenBinary}</p>
                 <p>Blue: ${blueBinary}</p>
@@ -83,6 +87,7 @@ type: tangibles
     <div id="colorText"></div>
 </body>
 </html>
+
 
 ## Ideation Diagram
 
