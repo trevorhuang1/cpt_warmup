@@ -35,6 +35,15 @@ permalink: /binarycpt/home
 - <a href="https://github.com/trevorhuang1/csp_blog/issues/1">Trevor Review Ticket</a>
 - <a href="https://github.com/trevorhuang1/cpt_warmup/issues/4">Lakshanya Review Ticket</a>
 
+| Name               | Team+Indi+Teacher | Feature                                          | Feature Demo                                                                                     | Issues                                | Key Commit(s)                                                                                                                                                                               | Analytics                                                                                                             |
+|------------------- |------------------- |-------------------------------------------------- |-------------------------------------------------------------------------------------------------- |--------------------------------------- |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |------------------------------------------------------------------------------------------------------------------------ |
+| Trevor Huang       | 0.85              | [Password Combiner](https://trevorhuang1.github.io/cpt_warmup//binarycpt/password-combiner)        | [Demo](https://www.youtube.com/embed/2r-a3uKsKcQ?si=1EjfRtFTQFguLgZ1)                             | [My Issue](https://github.com/trevorhuang1/cpt_warmup/issues/5)                                    | [Elementary password combiner](https://github.com/trevorhuang1/cpt_warmup/commit/f96393709dc9e6e1c28a78b33005e64f71fac3ce), [Animation](https://github.com/trevorhuang1/cpt_warmup/commit/a90b7064a68e6d0c694ba5efe179a28a4ed293ee)                | [Profile](https://github.com/trevorhuang1), [Workflow](https://github.com/trevorhuang1/cpt_warmup/actions?query=actor:trevorhuang1) |
+| Aditya Desai       | 0.84              | [Ascii Art](https://trevorhuang1.github.io/cpt_warmup//binarycpt/ascii-art)                      | [Demo](https://www.youtube.com/embed/sgBVGWAV_W0?si=BgjFlQyOgEl-fWmd)                             | [My Issue](https://github.com/trevorhuang1/cpt_warmup/issues/6)                                    | [Ascii Art Program/Canvas](https://github.com/trevorhuang1/cpt_warmup/commit/8d2ce0585463927361336e4c41df17ed84b469e7)                   | [Profile](https://github.com/ad1tyad3sa1), [Workflow](https://github.com/trevorhuang1/cpt_warmup/actions?query=actor%3Aad1tyad3sa1) |
+| Hanlun Li          | 0.88              | [Steganography](https://trevorhuang1.github.io/cpt_warmup//binarycpt/steganography)              | [Demo](https://www.youtube.com/embed/DxeNFm_G2BY?si=JbQiivypj5Bewpwa)                             | [My Issue](https://github.com/trevorhuang1/cpt_warmup/issues/3)                                    | [Stego](https://github.com/trevorhuang1/cpt_warmup/commit/19b5222fb5bb63762c1bba148aca17f166b11b13)                           | [Profile](https://github.com/hanlunli), [Workflow](https://github.com/trevorhuang1/cpt_warmup/actions?query=actor%3Ahanlunli)   |
+| Matthew Wakayama   | 0.85              | [Binary Sheep Counter](https://trevorhuang1.github.io/cpt_warmup//binarycpt/counting-sheep)      | [Demo](https://www.youtube.com/embed/pa7BQ9T9C1M?si=7H_47InuzpRYcdYa)                             | [Initial Ideation Issue](https://github.com/trevorhuang1/cpt_warmup/issues/2)                     | [Christmas SASS](https://github.com/trevorhuang1/cpt_warmup/commit/2d2963b0421167fcaaa29f84c8629adaeae979be), [Sheep Random Color Gen](https://github.com/trevorhuang1/cpt_warmup/commit/91038ae23158fc9fc865837d3a57ceba8d57ab6b) | [Profile](https://github.com/M8tth3), [Workflow](https://github.com/trevorhuang1/cpt_warmup/actions?query=actor%3AM8tth3++) |
+| Lakshanya Sankaran | 0.85              | [Color Generator](https://trevorhuang1.github.io/cpt_warmup//binarycpt/colorgen)                | [Demo](https://www.youtube.com/embed/6kySmN-ALZc?si=Btnus42cAiJR6wyO)                             | [Issue (initial concept)](https://github.com/trevorhuang1/cpt_warmup/issues/4)                     | [js color generator](https://github.com/trevorhuang1/cpt_warmup/commit/9da25de7e4f114a33fdb5028e7b4d3d236659a6e), [sample color input](https://github.com/trevorhuang1/cpt_warmup/commit/a9aa10d3a696960b662604dc98f4ea624c7f5fe5) | [Profile](https://github.com/lakshusan), [Workflow](https://github.com/trevorhuang1/cpt_warmup/actions?query=actor%3Alakshusan) |
+
+
 <script src="https://utteranc.es/client.js"
         repo="trevorhuang1/cpt_warmup"
         issue-term="pathname"
@@ -44,63 +53,5 @@ permalink: /binarycpt/home
 </script>
 
 
-<table>
-    <tbody>
-        <tr>
-            <td>Name</td>
-            <td>Team+Indi+Teacher</td>
-            <td>Feature</td>
-            <td>Feature Demo</td>
-            <td>Issues</td>
-            <td>Key Commit(s)</td>
-            <td>Analytics</td>
-        </tr>
-        <tr>
-            <td>Trevor Huang</td>
-            <td>0.85</td>
-            <td><a href="https://trevorhuang1.github.io/cpt_warmup//binarycpt/password-combiner">Password Combiner</a></td>
-            <td><iframe width="186" height="105" src="https://www.youtube.com/embed/2r-a3uKsKcQ?si=1EjfRtFTQFguLgZ1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
-            <td><a href="https://github.com/trevorhuang1/cpt_warmup/issues/5">My Issue</a></td>
-            <td><a href="https://github.com/trevorhuang1/cpt_warmup/commit/f96393709dc9e6e1c28a78b33005e64f71fac3ce">Elementary password combiner</a>, <a href="https://github.com/trevorhuang1/cpt_warmup/commit/a90b7064a68e6d0c694ba5efe179a28a4ed293ee">Animation</a></td>
-            <td><a href="https://github.com/trevorhuang1">Profile</a>,<a href="https://github.com/trevorhuang1/cpt_warmup/actions?query=actor:trevorhuang1">Workflow</a>
-        </tr>
-<!--  -->
-        <tr>
-            <td>Aditya Desai</td>
-            <td>0.84</td>
-            <td><a href="https://trevorhuang1.github.io/cpt_warmup//binarycpt/ascii-art">Ascii Art</a></td>
-            <td><iframe width="186" height="105" src="https://www.youtube.com/embed/sgBVGWAV_W0?si=BgjFlQyOgEl-fWmd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
-            <td><a href="https://github.com/trevorhuang1/cpt_warmup/issues/6">My Issue</a></td>
-            <td><a href="https://github.com/trevorhuang1/cpt_warmup/commit/8d2ce0585463927361336e4c41df17ed84b469e7">Ascii Art Program/Canvas</a></td>
-            <td><a href="https://github.com/ad1tyad3sa1">Profile</a>,<a href="https://github.com/trevorhuang1/cpt_warmup/actions?query=actor%3Aad1tyad3sa1">Workflow</a></td>
-        </tr>
-        <tr>
-            <td>Hanlun Li</td>
-            <td>0.88</td>
-            <td><a href="https://trevorhuang1.github.io/cpt_warmup//binarycpt/steganography">Steganography</a></td>
-            <td><iframe width="186" height="105" src="https://www.youtube.com/embed/DxeNFm_G2BY?si=JbQiivypj5Bewpwa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
-            <td><a href="https://github.com/trevorhuang1/cpt_warmup/issues/3">My Issue</a></td>
-            <td><a href="https://github.com/trevorhuang1/cpt_warmup/commit/19b5222fb5bb63762c1bba148aca17f166b11b13">Stego</a></td>
-            <td><a href="https://github.com/hanlunli">Profile</a>,<a href="https://github.com/trevorhuang1/cpt_warmup/actions?query=actor%3Ahanlunli">Workflow</a></td>
-        </tr>
-        <tr>
-            <td>Matthew Wakayama</td>
-            <td>0.85</td>
-            <td><a href="https://trevorhuang1.github.io/cpt_warmup//binarycpt/counting-sheep">Binary Sheep Counter</a></td>
-            <td><iframe width="186" height="105" src="https://www.youtube.com/embed/pa7BQ9T9C1M?si=7H_47InuzpRYcdYa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
-            <td><a href="https://github.com/trevorhuang1/cpt_warmup/issues/2">Initial Ideation Issue</a></td>
-            <td><a href="https://github.com/trevorhuang1/cpt_warmup/commit/2d2963b0421167fcaaa29f84c8629adaeae979be">Christmas SASS</a>, <a href="https://github.com/trevorhuang1/cpt_warmup/commit/91038ae23158fc9fc865837d3a57ceba8d57ab6b">Sheep Random Color Gen</a></td>
-            <td><a href="https://github.com/M8tth3">Profile</a>,<a href="https://github.com/trevorhuang1/cpt_warmup/actions?query=actor%3AM8tth3++">Workflow</a></td>
-        </tr>
-        <tr>
-            <td>Lakshanya Sankaran</td>
-            <td>0.85</td>
-            <td><a href="https://trevorhuang1.github.io/cpt_warmup//binarycpt/colorgen">Color Generator</a></td>
-            <td><iframe width="186" height="105" src="https://www.youtube.com/embed/6kySmN-ALZc?si=Btnus42cAiJR6wyO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
-            <td><a href="https://github.com/trevorhuang1/cpt_warmup/issues/4">Issue (initial concept)</a></td>
-            <td><a href="https://github.com/trevorhuang1/cpt_warmup/commit/9da25de7e4f114a33fdb5028e7b4d3d236659a6e">js color generator</a>, <a href="https://github.com/trevorhuang1/cpt_warmup/commit/a9aa10d3a696960b662604dc98f4ea624c7f5fe5">sample color input</a></td>
-            <td><a href="https://github.com/lakshusan">Profile</a>,<a href="https://github.com/trevorhuang1/cpt_warmup/actions?query=actor%3Alakshusan">Workflow</a></td>
-        </tr>
-    </tbody>
-</table>
+
 
