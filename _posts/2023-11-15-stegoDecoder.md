@@ -40,6 +40,31 @@ courses: { compsci: {week: 1} }
             width: 1000px;
             height: 80px;
         }
+        #instructButton{
+            display: inline-block;
+            padding: 1px 7px;
+            background-color: #3498db; /* Set your desired background color */
+            color: #ffffff; /* Set your desired text color */
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+            border-radius: 50%; /* Make it a circle by setting border-radius to 50% */
+            cursor: pointer;
+        }
+        .instructions{
+            display: none;
+            color: #fff;
+        }
+        .instruction{
+            color: #fff;
+            display: none;
+        }
+        .sometext{
+            color: #fff!important;
+        }
+        p {
+            color: #fff!important;
+        }
     </style>
     <title>Binary Counter</title>
 </head>
@@ -49,7 +74,18 @@ courses: { compsci: {week: 1} }
 <img src="https://media.discordapp.net/attachments/770342230925246505/1174716992951947316/godSheep.png?ex=65689b74&is=65562674&hm=f3219060d1c61a42c93316bee9865c3fe109fb1b0340ed08c801e21b0d232f37&=&width=375&height=378" id="sheep">
 
 <div id="soundBox"></div>
+<div>
 <button onclick="randomRGB()">Generate Random Color</button>
+<button id="instructButton" onclick="instructions()">?</button>
+</div>
+
+<div id="instructions">
+    <h3 class="sometext">Hi! Welcome to the guide for counting sheep!</h3>
+    <p class="sometext">    Right now, the sheep is transparent and has no values inputted in the color channels below. RGB decimal values go from 
+    0-255 and has up to 8 binary bits. Try entering a binary value into each color channel and see what happens to the sheep's color!
+    If you can't decide what color to input, try clicking on the "Generate Random Color" button and see what your favorite sheep color is.
+    If you think the color looks a bit off try increasing each value by pressing the "+10" button and see if those minor adjustments allow you to get the color you want. Thats all for now, have fun choosing a custom color for your sheep!</p>
+</div>
 <div id="binary-display" class="basicChex">Binary Value: 0</div>
 <div id="binary-display2" class="basicChex">2nd Binary Value: 0</div>
 <div id="binary-display3" class="basicChex">3rd Binary Value: 0</div>
@@ -79,6 +115,15 @@ courses: { compsci: {week: 1} }
 <button id="Add3" onclick="add3()">+10</button>
 </div>
 <script>
+    function instructions(){
+            var instructions = document.getElementById("instructions");
+            if (instructions.style.display === "none") {
+                instructions.style.display = "block";
+            } else {
+                instructions.style.display = "none";
+            }
+    }
+//
     let soundEffectCounter = 0;
     let sounds = [
   "Binary is a base-2 numeral system, meaning it uses two digits: 0 and 1.",
@@ -115,8 +160,8 @@ courses: { compsci: {week: 1} }
         soundBox.textContent = `The Sheep Says: ${randomSound}`;
     }
 //
-    // Update the sound every 2 seconds
-    setInterval(displayRandomSound, 2000);
+    // Update the sound every 4 seconds
+    setInterval(displayRandomSound, 4000);
     let binaryValue = 0;
     let binaryValue2 = 0;
     let binaryValue3 = 0;
