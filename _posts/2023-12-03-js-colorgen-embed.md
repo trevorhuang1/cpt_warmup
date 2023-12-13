@@ -80,7 +80,7 @@ type: tangibles
         <input type="submit" value="Submit">
     </form>
     <div id="result"></div>
-
+    <div id="colorText"></div>
 </body>
 </html>
 
