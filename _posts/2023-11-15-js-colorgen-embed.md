@@ -33,7 +33,6 @@ type: tangibles
             height: 200px;
             border: 1px solid #000;
         }
-
         #colorText {
             margin-top: 10px;
         }
@@ -103,7 +102,7 @@ type: tangibles
 ## Key Commits
 
 - <a href="https://github.com/trevorhuang1/cpt_warmup/commit/8bf1214933ef5cbe29572b1d4caa4a233b67532a">input-based js color generator</a>
-- <a href="https://github.com/trevorhuang1/cpt_warmup/commit/2d1eac0c2044606f30e2e8d65da9342d9a673608">python binary colorgen</a>
+- <a href="https://github.com/trevorhuang1/cpt_warmup/commit/e7fc72d08a77e54c11d55395bd2c14881b9efd5c">color result separate</a>
 - <a href="https://github.com/trevorhuang1/cpt_warmup/commit/a9aa10d3a696960b662604dc98f4ea624c7f5fe5">sample color input</a>
 
 <script src="https://utteranc.es/client.js"
