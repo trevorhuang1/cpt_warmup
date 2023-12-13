@@ -25,6 +25,9 @@ courses: { compsci: {week: 1} }
             animation: sheepWalk 5s linear infinite;
             z-index: -1;
         }
+        #sheep.jump {
+            animation: jump 1s ease-in-out;
+        }
         #red {
             color: red;
         }
@@ -65,6 +68,16 @@ courses: { compsci: {week: 1} }
         p {
             color: #fff!important;
         }
+        @keyframes jump {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    
+}
+
     </style>
     <title>Binary Counter</title>
 </head>
@@ -255,6 +268,12 @@ courses: { compsci: {week: 1} }
         let green = parseInt(binaryValue2.toString(2), 2);
         let blue = parseInt(binaryValue3.toString(2), 2);
         sheep.style.backgroundColor = `rgb(${red},${green},${blue})`;
+            if (numSheep > 0) {
+        // Add the 'jump' class to trigger the animation
+        sheep.classList.add('jump');
+        // Remove the 'jump' class after the animation completes
+        setTimeout(() => sheep.classList.remove('jump'), 1000);
+    }
     }
 </script>
 
